@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Calibri, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.header .logo h1 {
+  font-size: 24px;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  font-size: 16px;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #DC143C;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero .hero-content {
+  animation: slideIn 2s ease-out forwards; /* Apply the animation */
+  display: inline-block;
+  position: relative;
+  opacity: 0; /* Start with opacity 0 */
+}
+
+.hero .hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero .hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero .cta-button {
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero .cta-button:hover {
+  background-color: #555;
+}
+
+/* Features Section Styles */
+.features {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.feature-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Animation for sliding the text in */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%); /* Start from off-screen left */
+    opacity: 0; /* Make it invisible */
+  }
+  100% {
+    transform: translateX(0); /* Move to the normal position */
+    opacity: 1; /* Fade in */
+  }
+}

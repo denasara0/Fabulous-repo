@@ -1,25 +1,80 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss'; // Import your SCSS for styling
 
-function App() {
+// Header Component
+const Header = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <header className="header">
+      <div className="logo">
+        <h1>MyCompany</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
+
+// Hero Component (the header block part)
+const Hero = () => {
+  return (
+    <section id="hero" className="hero">
+      <div className="hero-content">
+        <h2>Welcome to your AI assisted counselor</h2>
+        <button className="cta-button">Let's chat</button>
+      </div>
+    </section>
+  );
+};
+
+// Features Component
+const Features = () => {
+  return (
+    <section id="features" className="features">
+      <h2>How can I help?</h2>
+      <div className="feature-list">
+        <div className="feature-item">
+          <h3>Course Selection</h3>
+          <p>Pick from a menu of pre-selected relevant courses</p>
+        </div>
+        <div className="feature-item">
+          <h3>Career Coaching</h3>
+          <p>Get customized course suggestions based on your career aspirations</p>
+        </div>
+        <div className="feature-item">
+          <h3>Prerequisite Scanning</h3>
+          <p>Tell our chatbot what courses you completed, and we will select appropriately matched
+            classes for you
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// Footer Component
+const Footer = () => {
+  return (
+    <footer id="footer" className="footer">
+      <p>2025 Indiana University Course Catalog</p>
+    </footer>
+  );
+};
+
+// Main App Component
+const App = () => {
+  return (
+    <div className="app">
+      <Header />
+      <Hero />
+      <Features />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
