@@ -30,7 +30,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <h2>Welcome to your AI-assisted counselor</h2>
+        <h2>Welcome to your new AI-assisted counselor</h2>
         <button className="cta-button" onClick={handleChatbotToggle}>
           Let's chat
         </button>
@@ -75,19 +75,20 @@ const Chatbot = ({ closeChatbot }) => {
 
   // Handle resizing
   const handleResize = (e, direction) => {
-    const resizeSensitivity = 0.01; // Lower value for less sensitivity
+    e.stopPropagation(); // Prevent dragging while resizing
     const mouseMove = (moveEvent) => {
+      moveEvent.preventDefault();
       if (direction === 'right') {
-        // Change the width based on mouse movement and sensitivity factor
-        setChatbotSize((prev) => ({
+        const dx = (moveEvent.clientX - e.clientX) * 0.5; // Added 0.5x scaling factor
+        setChatbotSize(prev => ({
           ...prev,
-          width: Math.max(prev.width + (moveEvent.clientX - e.clientX) * resizeSensitivity, 100), // Minimum width is 100px
+          width: Math.min(Math.max(prev.width + dx, 300), window.innerWidth - chatbotPosition.left - 20) // Min width 300px, max is window width - margin
         }));
       } else if (direction === 'bottom') {
-        // Change the height based on mouse movement and sensitivity factor
-        setChatbotSize((prev) => ({
+        const dy = (moveEvent.clientY - e.clientY) * 0.5; // Added 0.5x scaling factor
+        setChatbotSize(prev => ({
           ...prev,
-          height: Math.max(prev.height + (moveEvent.clientY - e.clientY) * resizeSensitivity, 100), // Minimum height is 100px
+          height: Math.min(Math.max(prev.height + dy, 200), window.innerHeight - chatbotPosition.top - 20) // Min height 200px, max is window height - margin
         }));
       }
     };
@@ -148,15 +149,15 @@ const Chatbot = ({ closeChatbot }) => {
 const Features = () => {
   return (
     <section id="features" className="features">
-      <h2>How can I help?</h2>
+      <h2>How can I assist you?</h2>
       <div className="feature-list">
         <div className="feature-item">
           <h3>Course Selection</h3>
-          <p>Pick from a menu of pre-selected relevant courses</p>
+          <p>Our Dynamic AI will help you select courses based on level, preferences, goals, your major, and more</p>
         </div>
         <div className="feature-item">
           <h3>Career Coaching</h3>
-          <p>Get customized course suggestions based on your career aspirations</p>
+          <p>Get customized course suggestions based on your career aspirations coupled with the ability to meet you where you are in your learning journey</p>
         </div>
         <div className="feature-item">
           <h3>Prerequisite Scanning</h3>
