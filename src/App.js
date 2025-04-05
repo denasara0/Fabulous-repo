@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './App.scss';
 
 // Header Component
@@ -21,35 +21,43 @@ const Header = () => {
 
 // Hero Component (the header block part)
 const Hero = () => {
-  const [blink, setBlink] = useState(false);
+  const [chatbotVisible, setChatbotVisible] = useState(false); // Manage chatbot visibility
 
-  useEffect(() => {
-    // Trigger the blinking effect after the sliding-in text animation completes (2 seconds)
-    const timer = setTimeout(() => {
-      setBlink(true);
-    }, 2000); // Delay the blink until after the slide-in animation finishes
-
-    // Optionally, reset the blink after the animation runs once
-    const resetTimer = setTimeout(() => {
-      setBlink(false);
-    }, 3000); // Blink duration (1 second)
-
-    // Clean up the timers on unmount
-    return () => {
-      clearTimeout(timer);
-      clearTimeout(resetTimer);
-    };
-  }, []);
+  const handleChatbotToggle = () => {
+    setChatbotVisible(!chatbotVisible); // Toggle chatbot visibility
+  };
 
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
         <h2>Welcome to your AI-assisted counselor</h2>
-        <button className={`cta-button ${blink ? 'blink' : ''}`}>
+        <button className="cta-button" onClick={handleChatbotToggle}>
           Let's chat
         </button>
       </div>
+
+      {/* Conditionally render the chatbot popup */}
+      {chatbotVisible && <Chatbot closeChatbot={handleChatbotToggle} />}
     </section>
+  );
+};
+
+// Chatbot Component (Placeholder)
+const Chatbot = ({ closeChatbot }) => {
+  return (
+    <div className="chatbot">
+      <div className="chatbot-header">
+        Chatbot (Placeholder)
+        {/* Exit button */}
+        <button className="close-button" onClick={closeChatbot}>X</button>
+      </div>
+      <div className="chatbot-body">
+        <p>Chatbot content will appear here...</p>
+      </div>
+      <div className="chatbot-footer">
+        <button>Start Chat</button>
+      </div>
+    </div>
   );
 };
 

@@ -157,3 +157,53 @@ ul {
     opacity: 1; /* Fade in */
   }
 }
+/* Chatbot Styles (App.scss) */
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  z-index: 9999; /* Ensure it's above other content */
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbot-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.chatbot-body {
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+  flex-grow: 1;
+  overflow-y: auto; /* Add scrolling for longer conversations */
+}
+
+.chatbot-footer {
+  padding: 10px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.chatbot-footer button {
+  background-color: #DC143C;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.chatbot-footer button:hover {
+  background-color: #ff4d6d;
+}
