@@ -72,6 +72,17 @@ ul {
   margin-bottom: 30px;
 }
 
+/* Keyframes for blinking effect */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Style for the CTA button */
 .hero .cta-button {
   padding: 15px 30px;
   background-color: #333;
@@ -79,6 +90,14 @@ ul {
   font-size: 18px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s;
+  opacity: 1; /* Ensure it's visible */
+}
+
+/* Blink animation (after text is settled) */
+.hero .cta-button.blink {
+  animation: blink 1s ease-in-out 1; /* Blink once */
+  animation-delay: 2s; /* Delay the blink until after the text animation */
 }
 
 .hero .cta-button:hover {

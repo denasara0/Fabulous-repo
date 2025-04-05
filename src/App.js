@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.scss'; // Import your SCSS for styling
+import React, { useEffect, useState } from 'react';
+import './App.scss';
 
 // Header Component
 const Header = () => {
@@ -21,11 +21,33 @@ const Header = () => {
 
 // Hero Component (the header block part)
 const Hero = () => {
+  const [blink, setBlink] = useState(false);
+
+  useEffect(() => {
+    // Trigger the blinking effect after the sliding-in text animation completes (2 seconds)
+    const timer = setTimeout(() => {
+      setBlink(true);
+    }, 2000); // Delay the blink until after the slide-in animation finishes
+
+    // Optionally, reset the blink after the animation runs once
+    const resetTimer = setTimeout(() => {
+      setBlink(false);
+    }, 3000); // Blink duration (1 second)
+
+    // Clean up the timers on unmount
+    return () => {
+      clearTimeout(timer);
+      clearTimeout(resetTimer);
+    };
+  }, []);
+
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <h2>Welcome to your AI assisted counselor</h2>
-        <button className="cta-button">Let's chat</button>
+        <h2>Welcome to your AI-assisted counselor</h2>
+        <button className={`cta-button ${blink ? 'blink' : ''}`}>
+          Let's chat
+        </button>
       </div>
     </section>
   );
