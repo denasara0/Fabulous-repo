@@ -403,54 +403,105 @@ ul {
 }
 
 .chat-history-container {
-  max-height: 300px;
-  overflow-y: auto;
-  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding: 10px;
-  border-radius: 4px;
-  background-color: #fff;
-  margin-top: 10px;
-  
-  .chat-message {
-    margin-bottom: 8px;
-    padding: 8px;
-    border-radius: 4px;
-    
-    &.user-message {
-      color: blue;
-      background-color: #f0f8ff;
-    }
-    
-    &.api-message {
-      color: green;
-      background-color: #f0fff0;
-    }
-    
-    &.error-message {
-      color: red;
-      background-color: #fff0f0;
-    }
-    
-    &.loading-message {
-      background-color: transparent;
-    }
-    
-    strong {
-      margin-right: 5px;
-    }
-  }
+  overflow-y: auto;
+  max-height: calc(100% - 150px);
 }
 
-.error-container {
-  color: red;
-  background-color: #fff0f0;
+.chat-message {
+  padding: 12px;
+  border-radius: 8px;
+  margin: 5px 0;
+  max-width: 85%;
+  word-wrap: break-word;
+}
+
+.user-message {
+  background-color: #EDEBEB; /* IU cream color */
+  align-self: flex-end;
+  margin-left: 15%;
+}
+
+.api-message {
+  background-color: rgba(153, 0, 0, 0.1); /* Light crimson (IU color) with transparency */
+  align-self: flex-start;
+  margin-right: 15%;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  align-self: center;
+  text-align: center;
+}
+
+.loading-dots {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
-  border-radius: 4px;
-  margin-top: 10px;
-  
-  h3 {
-    color: #DC143C;
-    margin: 0 0 5px 0;
-    font-size: 16px;
+}
+
+.loading-dots span {
+  animation: blink 1s infinite;
+  font-size: 24px;
+  color: #990000; /* IU crimson */
+}
+
+.loading-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loading-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.chatbot-body {
+  background-color: white;
+  h2 {
+    color: #990000; /* IU crimson */
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 0 15px;
+  }
+
+  textarea {
+    width: calc(100% - 30px);
+    margin: 10px 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+    height: 60px;
+    &:focus {
+      outline: 2px solid #990000; /* IU crimson */
+      border-color: transparent;
+    }
+  }
+
+  button {
+    background-color: #990000; /* IU crimson */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 15px;
+    &:hover {
+      background-color: #7A0000; /* Darker crimson */
+    }
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
   }
 }

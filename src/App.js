@@ -30,7 +30,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <h2>Welcome to your new AI-assisted counselor</h2>
+        <h2>Meet Alyssa, your new AI-assisted counselor</h2>
         <button className="cta-button" onClick={handleChatbotToggle}>
           Let's chat
         </button>
