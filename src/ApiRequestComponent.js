@@ -1,11 +1,23 @@
 import React, { useState } from 'react';
 
+const LoadingDots = () => (
+  <div className="loading-dots">
+    <span>.</span>
+    <span>.</span>
+    <span>.</span>
+  </div>
+);
+
 const ApiRequestComponent = () => {
   const [message, setMessage] = useState('');
   const [chatHistory, setChatHistory] = useState([]); // Array to hold chat history
   const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   const sendRequest = async () => {
+    if (!message.trim()) return;
+    
+    setIsLoading(true);
     const url = 'http://localhost:11434/api/generate';
     const data = {
       model: 'gemma3:1b',
@@ -14,6 +26,13 @@ const ApiRequestComponent = () => {
     };
 
     try {
+      // add  message and loading state immediately
+      setChatHistory(prev => [
+        ...prev,
+        { type: 'user', text: message },
+        { type: 'loading' }
+      ]);
+
       const res = await fetch(url, {
         method: 'POST',
         headers: {
@@ -27,21 +46,23 @@ const ApiRequestComponent = () => {
       }
 
       const result = await res.json();
-      // Update chat history with the user's message and the API response
-      setChatHistory((prev) => [
-        ...prev,
-        { type: 'user', text: message },
-        { type: 'api', text: result.response }, // Assuming result is a string or can be displayed directly
+      
+      // replace loading state with api response
+      setChatHistory(prev => [
+        ...prev.slice(0, -1), // remove loading dots
+        { type: 'api', text: result.response }
       ]);
-      setMessage(''); // Clear the input field
-      setError(null); // Clear any previous errors
+      
+      setMessage('');
+      setError(null);
     } catch (err) {
-      setError(err.message);
-      // Optionally, add the error to chat history
-      setChatHistory((prev) => [
-        ...prev,
-        { type: 'error', text: err.message },
+      setChatHistory(prev => [
+        ...prev.slice(0, -1), // remove loading dots
+        { type: 'error', text: err.message }
       ]);
+      setError(err.message);
+    } finally {
+        // finally will clean the loading state after the promise resolves      setIsLoading(false);
     }
   };
 
@@ -53,21 +74,32 @@ const ApiRequestComponent = () => {
         onChange={(e) => setMessage(e.target.value)}
         placeholder="Type your message here..."
       />
-      <button onClick={sendRequest}>Send</button>
+      <button onClick={sendRequest} disabled={isLoading}>
+        Send
+      </button>
 
       <div>
         <h3>Chat History:</h3>
-        <div style={{ maxHeight: '300px', overflowY: 'auto', border: '1px solid #ccc', padding: '10px' }}>
+        <div className="chat-history-container">
           {chatHistory.map((entry, index) => (
-            <div key={index} style={{ color: entry.type === 'user' ? 'blue' : entry.type === 'api' ? 'green' : 'red' }}>
-              <strong>{entry.type === 'user' ? 'You:' : entry.type === 'api' ? 'API:' : 'Error:'}</strong> {entry.text}
+            <div 
+              key={index} 
+              className={`chat-message ${entry.type}-message`}
+            >
+              {entry.type === 'loading' ? (
+                <LoadingDots />
+              ) : (
+                <>
+                  <strong>{entry.type === 'user' ? 'You:' : entry.type === 'api' ? 'AI:' : 'Error:'}</strong> {entry.text}
+                </>
+              )}
             </div>
           ))}
         </div>
       </div>
 
       {error && (
-        <div style={{ color: 'red' }}>
+        <div className="error-container">
           <h3>Error:</h3>
           <p>{error}</p>
         </div>
