@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.scss';
 
 // Header Component
@@ -11,7 +11,6 @@ const Header = () => {
       <nav>
         <ul>
           <li><a href="#hero">Home</a></li>
-          <li><a href="#features">Features</a></li>
           <li><a href="#footer">Contact</a></li>
         </ul>
       </nav>
@@ -42,10 +41,85 @@ const Hero = () => {
   );
 };
 
-// Chatbot Component (Placeholder)
+// Chatbot Component (with draggable and resizable functionality)
 const Chatbot = ({ closeChatbot }) => {
+  const [isDragging, setIsDragging] = useState(false);
+  const [chatbotPosition, setChatbotPosition] = useState({ top: 100, left: 100 });
+  const [chatbotSize, setChatbotSize] = useState({ width: 300, height: 200 });
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+
+  // Handle dragging start
+  const handleDragStart = (e) => {
+    setIsDragging(true);
+    setDragStart({ x: e.clientX, y: e.clientY });
+  };
+
+  // Handle dragging move
+  const handleDragMove = (e) => {
+    if (isDragging) {
+      const dx = e.clientX - dragStart.x;
+      const dy = e.clientY - dragStart.y;
+      setChatbotPosition({
+        top: chatbotPosition.top + dy,
+        left: chatbotPosition.left + dx,
+      });
+      setDragStart({ x: e.clientX, y: e.clientY });
+    }
+  };
+
+  // Handle dragging end
+  const handleDragEnd = () => {
+    setIsDragging(false);
+  };
+
+  // Handle resizing
+  const handleResize = (e, direction) => {
+    const resizeSensitivity = 0.01; // Lower value for less sensitivity
+    const mouseMove = (moveEvent) => {
+      if (direction === 'right') {
+        // Change the width based on mouse movement and sensitivity factor
+        setChatbotSize((prev) => ({
+          ...prev,
+          width: Math.max(prev.width + (moveEvent.clientX - e.clientX) * resizeSensitivity, 100), // Minimum width is 100px
+        }));
+      } else if (direction === 'bottom') {
+        // Change the height based on mouse movement and sensitivity factor
+        setChatbotSize((prev) => ({
+          ...prev,
+          height: Math.max(prev.height + (moveEvent.clientY - e.clientY) * resizeSensitivity, 100), // Minimum height is 100px
+        }));
+      }
+    };
+
+    const mouseUp = () => {
+      document.removeEventListener('mousemove', mouseMove);
+      document.removeEventListener('mouseup', mouseUp);
+    };
+
+    document.addEventListener('mousemove', mouseMove);
+    document.addEventListener('mouseup', mouseUp);
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousemove', handleDragMove);
+    document.addEventListener('mouseup', handleDragEnd);
+    return () => {
+      document.removeEventListener('mousemove', handleDragMove);
+      document.removeEventListener('mouseup', handleDragEnd);
+    };
+  }, [isDragging, dragStart, chatbotPosition]);
+
   return (
-    <div className="chatbot">
+    <div
+      className="chatbot"
+      style={{
+        top: `${chatbotPosition.top}px`,
+        left: `${chatbotPosition.left}px`,
+        width: `${chatbotSize.width}px`,
+        height: `${chatbotSize.height}px`,
+      }}
+      onMouseDown={handleDragStart}
+    >
       <div className="chatbot-header">
         Chatbot (Placeholder)
         {/* Exit button */}
@@ -57,6 +131,15 @@ const Chatbot = ({ closeChatbot }) => {
       <div className="chatbot-footer">
         <button>Start Chat</button>
       </div>
+      {/* Resizing handles */}
+      <div
+        className="resize-handle resize-right"
+        onMouseDown={(e) => handleResize(e, 'right')}
+      />
+      <div
+        className="resize-handle resize-bottom"
+        onMouseDown={(e) => handleResize(e, 'bottom')}
+      />
     </div>
   );
 };

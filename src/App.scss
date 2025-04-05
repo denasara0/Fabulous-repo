@@ -159,18 +159,16 @@ ul {
 }
 /* Chatbot Styles (App.scss) */
 .chatbot {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 300px;
+  position: absolute;
+  z-index: 9999; /* Ensure it's above other content */
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
-  z-index: 9999; /* Ensure it's above other content */
   display: flex;
   flex-direction: column;
+  pointer-events: all; /* Enable pointer events */
 }
 
 .chatbot-header {
@@ -180,6 +178,22 @@ ul {
   font-size: 18px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #ff4d6d; /* Change color on hover */
 }
 
 .chatbot-body {
@@ -187,7 +201,7 @@ ul {
   font-size: 14px;
   color: #555;
   flex-grow: 1;
-  overflow-y: auto; /* Add scrolling for longer conversations */
+  overflow-y: auto;
 }
 
 .chatbot-footer {
@@ -206,4 +220,26 @@ ul {
 
 .chatbot-footer button:hover {
   background-color: #ff4d6d;
+}
+
+/* Resizing Handles */
+.resize-handle {
+  position: absolute;
+  background-color: #333;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.resize-right {
+  right: 0;
+  bottom: 50%;
+  cursor: ew-resize;
+}
+
+.resize-bottom {
+  bottom: 0;
+  right: 50%;
+  cursor: ns-resize;
 }
