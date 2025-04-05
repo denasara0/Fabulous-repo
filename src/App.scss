@@ -197,11 +197,14 @@ ul {
 }
 
 .chatbot-body {
-  padding: 10px;
+  padding: 15px;
   font-size: 14px;
   color: #555;
   flex-grow: 1;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 100px); /* Adjust for header and footer */
 }
 
 .chatbot-footer {
@@ -242,4 +245,117 @@ ul {
   bottom: 0;
   right: 50%;
   cursor: ns-resize;
+}
+
+/* API Request Component Styles */
+.chatbot-body {
+  /* Update existing styles */
+  padding: 15px;
+  font-size: 14px;
+  color: #555;
+  flex-grow: 1;
+  overflow-y: auto;
+  
+  /* Add these new styles */
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 100px); /* Adjust for header and footer */
+  
+  /* Style for the API component container */
+  > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+  }
+
+  textarea {
+    width: calc(100% - 20px);
+    min-height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-family: inherit;
+    margin-bottom: 10px;
+    
+    &:focus {
+      outline: none;
+      border-color: #DC143C;
+      box-shadow: 0 0 5px rgba(220, 20, 60, 0.2);
+    }
+  }
+
+  button {
+    background-color: #DC143C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    width: fit-content;
+    
+    &:hover {
+      background-color: #ff4d6d;
+    }
+  }
+
+  /* Chat History Styles */
+  .chat-history {
+    flex-grow: 1;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+    background-color: #fff;
+    
+    > div {
+      margin-bottom: 8px;
+      padding: 8px;
+      border-radius: 4px;
+      
+      &[style*="color: blue"] {
+        background-color: #f0f8ff;
+      }
+      
+      &[style*="color: green"] {
+        background-color: #f0fff0;
+      }
+      
+      &[style*="color: red"] {
+        background-color: #fff0f0;
+      }
+    }
+  }
+
+  /* Error Message Styles */
+  div[style*="color: red"] {
+    background-color: #fff0f0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+    h3 {
+      color: #DC143C;
+      margin: 0 0 5px 0;
+      font-size: 16px;
+    }
+  }
+}
+
+/* Adjust chatbot dimensions */
+.chatbot {
+  min-width: 400px;
+  min-height: 600px;
+  max-width: 800px;
+  max-height: 800px;
 }

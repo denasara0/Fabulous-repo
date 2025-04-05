@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.scss';
+import ApiRequestComponent from './ApiRequestComponent';
 
 // Header Component
 const Header = () => {
@@ -45,7 +46,7 @@ const Hero = () => {
 const Chatbot = ({ closeChatbot }) => {
   const [isDragging, setIsDragging] = useState(false);
   const [chatbotPosition, setChatbotPosition] = useState({ top: 100, left: 100 });
-  const [chatbotSize, setChatbotSize] = useState({ width: 300, height: 200 });
+  const [chatbotSize, setChatbotSize] = useState({ width: 400, height: 600 });
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
 
   // Handle dragging start
@@ -121,15 +122,14 @@ const Chatbot = ({ closeChatbot }) => {
       onMouseDown={handleDragStart}
     >
       <div className="chatbot-header">
-        Chatbot (Placeholder)
+        AI Assistant
         {/* Exit button */}
         <button className="close-button" onClick={closeChatbot}>X</button>
       </div>
       <div className="chatbot-body">
-        <p>Chatbot content will appear here...</p>
+        {<ApiRequestComponent />}
       </div>
       <div className="chatbot-footer">
-        <button>Start Chat</button>
       </div>
       {/* Resizing handles */}
       <div
