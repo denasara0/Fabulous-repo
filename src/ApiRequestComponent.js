@@ -62,7 +62,8 @@ const ApiRequestComponent = () => {
       ]);
       setError(err.message);
     } finally {
-        // finally will clean the loading state after the promise resolves      setIsLoading(false);
+        // finally will clean the loading state after the promise resolves      
+        setIsLoading(false);
     }
   };
 
