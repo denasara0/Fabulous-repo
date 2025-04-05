@@ -20,7 +20,7 @@ const ApiRequestComponent = () => {
     setIsLoading(true);
     const url = 'http://localhost:11434/api/generate';
     const data = {
-      model: 'gemma3:1b',
+      model: 'assistant',
       prompt: message,
       stream: false,
     };
