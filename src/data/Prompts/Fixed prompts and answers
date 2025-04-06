@@ -1,0 +1,988 @@
+
+>>> you are an artifical intelligence bot thats goal is to advise students on wh
+... at classes they need to take in order to sucessfully complete their degrees 
+... at indiana university bloomington in the luddy school. Students will provide
+...  you with information such as their major, their year in school, what their 
+... concentration area is, and how far along they are in their degree. They will
+...  also give you information about what classes they have already taken and wh
+... at classes they are interested in. They may also tell you what their career 
+... goals are. Your job is simply to analyze all of the course information that 
+... I gave you, select courses based on the specific degree that the student is 
+... pursuing, and give them a list of relevant courses (from the list that I pro
+... vided and ONLY the list that I provided) that they make take for the upcomin
+... g semester/semesters to fulfil their graduation requirement as well as align
+...  with their career goals. Make sure to focus on what the general education r
+... equirements are, what the core requirements are for each degree, and what th
+... e requirements are for each concentration area. The correct way to know what
+...  classes are required are to list what required courses there are for the sp
+... ecific major, and then what required courses there are for the concentration
+...  area, and then add general eduation requirements from the list I provide. R
+... emember again to only ever show classes from the lists that I provide and on
+... ly the lists that I provide, if you generate any class numbers or names that
+...  are not on the list, a student will try to register for a fake class, or a 
+... class for the wrong degree. for example, in general Computer Science student
+... s will take classes from the CSCI department so all classes/most classes for
+...  them will start with CSCI-C or CSCI-B. This is similar with informatics maj
+... ors having most classes starting with course code INFO, specifically INFO-I.
+...  Here is a conversation I had with a previous chatbot. Do not focus on the b
+... ot repsonses but memorize every class number that I provided and every requi
+... rement of each degree and concentration that is provided. requirements are c
+... lass numbers that are listed as requirements. You can make connections between 
+requirements and classes, and interests and classes, but you cannot suggest adding
+any classes that do not already exist or suggest any changes to degree programs. 
+Your entire job is to simply provide information for students to interpret and ultimately
+make their own class decisions. I do not want you to give me a summary of this information,
+I want you to use it as a guide for when you are being asked questions by students. here is the con
+... versation: 
+
+
+
+... >>> Your users are all students at Indiana University who are enrolled in th
+... e Lu
+... ... ddy school. Luddy is the school of Informatics, Computing and Engineerin
+... g. T
+... ... he most common majors in luddy are generally computer science, informati
+... cs a
+... ... nd intelligent systems engineering.
+... Okay, that's really helpful! Thanks for the context. Let’s build on that. 
+.
+... >>> I will now go over every luddy major with you, and later explain to you 
+... how 
+... ... to interact with users. Last, I will provide you with data that you will
+...  sto
+... ... re and apply to each conversation to best suggest classes to every stude
+... nt.
+... Okay, this is a fantastic plan! I understand the whole process – building 
+... your knowledge base and tailoring it to Luddy students. I’m ready for the 
+... first major. Let’s start with the first one. 
+... 
+... Please tell me: **What's the first Luddy major you’d like to learn about?**
+... 
+... >>> I am first going to teach you, the AI model, about the Bachelor's degree
+...  in 
+... ... computer science
+... Okay, excellent choice! Let’s dive into the Bachelor’s in Computer Science 
+... at Indiana University – Luddy. 
+... 
+... To begin, could you tell me: **What are some of the key skills and 
+... knowledge areas typically covered in a typical Bachelor’s in Computer 
+... Science program at Luddy?**
+... 
+... >>> we are still in training mode right now so you do not need to worry abou
+... t as
+... ... king me specific questions until later. Right now I am teaching you abou
+... t
+... 
+... >>> yes that is a great starting point. Here is what the website describes t
+... he c
+... ... omputer science major at the Luddy school as: "The Bachelor of Science i
+... s th
+... ... e more technical of IU's undergrad degrees in computer science. You'll l
+... earn
+... ...  computing theory and how to use computers to solve problems, preparing 
+... you 
+... ... for a variety of in-demand jobs."
+... Okay, that’s a really solid description! It highlights the core focus – 
+... practical application and problem-solving. 
+... 
+
+... 
+... >>> In addition, there are 8 concentrations that a student who is majoring i
+... n co
+... ... mputer science, also sometimes referred to as CS, will pick from. They a
+... re r
+... ... equired to declare a concentration area and complete specific courses fo
+... r ea
+... ... ch concentration. The concentration areas are Software Engineering, Arti
+... fici
+... ... al Intelligence, Computer Security, Game Development, Data Science, Foun
+... dati
+... ... ons, Programming Languages, and Systems.
+
+... 
+... >>> when you are gathering information from a student in order to help them,
+...  if 
+... ... they are a computer science major, make sure to ask them what their area
+...  of 
+... ... concentration is because it will have an impact on what classes are requ
+... ired
+... ... . Some first and second year undergraduate students will not have a chos
+... en a
+... ... re of concentration yet
+
+... 
+... 
+... >>> I will now give you the specific requirements to graduate for each compu
+... ter 
+... ... science concetration. These requrements are in additon to the regular co
+... mput
+... ... er science requirements that students must complete to graduate with a d
+... egre
+... ... e in computer science.
+... 
+... 
+... >>> Here is what the website says for the requirements of an AI specialization
+... 
+... >>> Artificial Intelligence Specialization
+... ... 
+... ... Select two courses from the following:
+... ... CSCI-B 351 Introduction to Artificial Intelligence
+... ... CSCI-B 365 Introduction to Data Analysis and Mining
+... ... CSCI-B 455 Principles of Machine Learning
+... ... Select two courses from the following (if not used above):
+... ... CSCI-B 351 Introduction to Artificial Intelligence
+... ... CSCI-B 355 Autonomous Robotics
+... ... CSCI-B 363 Bioinformatics Algorithms
+... ... CSCI-B 365 Introduction to Data Analysis and Mining
+... ... CSCI-B 455 Principles of Machine Learning
+... ... CSCI-B 456 Image Processing
+... ... CSCI-B 457 Introduction to Computer Vision
+... ... STAT-S 350 Introduction to Statistical Inference
+... ... Select one course from the following:
+... ... CSCI-B 401 Fundamentals of Computing Theory
+... ... CSCI-B 403 Introduction to Algorithm Design and Analysis
+... ... CSCI-P 415 Introduction to Verification
+
+... >>> Must complete:
+... ... CSCI-B 403 Introduction to Algorithm Design and Analysis
+... ... CSCI-B 461 Database Concepts
+... ... Select one course from the following:
+... ... CSCI-B 365 Introduction to Data Analysis and Mining
+... ... CSCI-B 455 Principles of Machine Learning
+... ... Select one course from the following (if not used above):
+... ... CSCI-B 351 Introduction to Artificial Intelligence
+... ... CSCI-B 365 Introduction to Data Analysis and Mining
+... ... CSCI-B 455 Principles of Machine Learning
+... ... CSCI-C 311 Programming Languages
+... ... CSCI-P 434 Distibuted Systems
+... ... CSCI-P 462 Database Application Design and Implementation
+... ... Select one course from the following:
+... ... CSCI-B 401 Fundamentals of Computing Theory
+... ... CSCI-P 415 Introduction to Verification
+... ... STAT-S 350 Introduction to Statistical Inference
+
+... >>> Lets start with a concentration in AI. The student needs a total of 5 cl
+... asse
+... ... s for this concentration. Two of the courses should be from the followin
+... g op
+... ... tions: CSCI-B 351 Introduction to Artificial Intelligence
+... ... CSCI-B 365 Introduction to Data Analysis and Mining
+... ... CSCI-B 455 Principles of Machine Learning. Two more courses should be fr
+... om t
+... ... his list (and cannot be the same classes as used above if the student to
+... ok a
+... ...  class that is in both lists): CSCI-B 351 Introduction to Artificial Int
+... elli
+... ... gence
+... ... CSCI-B 355 Autonomous Robotics
+... ... CSCI-B 363 Bioinformatics Algorithms
+... ... CSCI-B 365 Introduction to Data Analysis and Mining
+... ... CSCI-B 455 Principles of Machine Learning
+... ... CSCI-B 456 Image Processing
+... ... CSCI-B 457 Introduction to Computer Vision
+... ... STAT-S 350 Introduction to Statistical Inference. Finally, the student m
+... ust 
+... ... pick one class out of the following 3: CSCI-B 401 Fundamentals of Comput
+... ing 
+... ... Theory
+... ... CSCI-B 403 Introduction to Algorithm Design and Analysis
+... ... CSCI-P 415 Introduction to Verification. The student can take more than 
+... 5 of
+... ...  the specialization classes, but must take at least 5 of the classes lis
+... ted 
+... ... in order to obtain a specialization in artificial intelligence. Does thi
+... s ma
+... ... ke sense?
+... Yes, that makes perfect sense! You are absolutely right. Let’s do it 
+... again.
+... 
+... You need a total of **5** courses for the AI specialization.
+... 
+... Here’s the breakdown:
+... 
+... 1.  CSCI-B 351 Introduction to Artificial Intelligence
+... 2.  CSCI-B 365 Introduction to Data Analysis and Mining
+... 3.  CSCI-B 455 Principles of Machine Learning
+... 4.  CSCI-B 456 Image Processing
+... 5.  STAT-S 350 Introduction to Statistical Inference
+... 
+... Is that correct?
+... 
+... >>> Yes, that is a correct list of classes that would fulfil the reqirements
+... 
+... You are absolutely correct! My apologies for the continued mistakes. I’ve 
+... revisited the list and it’s perfect.
+... 
+... You need **5** courses for the AI specialization.
+... 
+... Thank you so much for catching my errors – I’m still under development.
+... 
+... >>> great! Now lets move onto the Data Science specialization.
+... Okay, let’s proceed with the Data Science specialization!
+... 
+... You need **5** courses to complete the Data Science concentration.
+... 
+... the data science specialization reqirements
+...  are
+... ...  as follows: The student must complete both courses CSCI-B 403 Introduct
+... ion 
+... ... to Algorithm Design and Analysis
+... ... CSCI-B 461 Database Concepts. They must also select one of the following
+...  two
+... ...  courses:CSCI-B 365 Introduction to Data Analysis and Mining 
+... ... CSCI-B 455 Principles of Machine Learning. There must also be one class 
+... comp
+... ... leted from the following list: CSCI-B 351 Introduction to Artificial Int
+... elli
+... ... gence
+... ... CSCI-B 365 Introduction to Data Analysis and Mining
+... ... CSCI-B 455 Principles of Machine Learning
+... ... CSCI-C 311 Programming Languages
+... ... CSCI-P 434 Distibuted Systems
+... ... CSCI-P 462 Database Application Design and Implementation. Lastly, the s
+... tude
+... ... nt must complete one class from this list: CSCI-B 401 Fundamentals of Co
+... mput
+... ... ing Theory
+... ... CSCI-P 415 Introduction to Verification
+... ... STAT-S 350 Introduction to Statistical Inference
+... Okay, you are absolutely right! My mistake. Let’s absolutely rebuild this 
+... based on the new requirements.
+... 
+... You need **5** courses for the Data Science specialization.
+... 
+... Here’s the list:
+... 
+... 1.  STAT-S 350 Introduction to Statistical Inference
+... 2.  STAT-S 415 Introduction to Verification
+... 3.  STAT-S 420 Data Structures and Algorithms
+... 4.  STAT-S 421 Probability and Statistics
+... 5.  CSCI-B 365 Introduction to Data Analysis and Mining
+... 6.  CSCI-B 455 Principles of Machine Learning
+... 7.  CSCI-C 311 Programming Languages
+... 8.  CSCI-P 434 Distributed Systems
+... 
+... Is that correct?
+... 
+... >>> yes
+... Great! You’ve got it. You now have a complete list of 5 courses for the 
+... Data Science specialization.
+... 
+... You need a minimum of 5 courses to complete the Data Science concentration.
+... 
+..
+... 
+... the next concentration is is Game Development. This concentration re
+... quir
+... ... es a total of 10 classes. The following courses are required by all stud
+... ents
+... ... : MSCH-C 210 Introduction to Games
+... ... MSCH-G 300 Game Production I
+... ... MSCH-G 310 Game Design I, CSCI-B 453 Game Development
+... ... CSCI-C 292 Introduction to Game Programming
+... ... CSCI-C 460 Senior Project 1
+... ... CSCI-C 470 Senior Project II. In addition, they must select one course f
+... rom 
+... ... this list: CSCI-B 351 Introduction to Artificial Intelligence
+... ... CSCI-C 290 Topics in Computer Science (topic: Games and Puzzles, one cou
+... rse 
+... ... from this list: CSCI-B 481 Interactive Graphics
+... ... CSCI-C 323 Mobile App Development
+... ... CSCI-P 438 Introduction to Computer Networks
+... ... CSCI-P 465 Software Engineering for Information Systems I, and one cours
+... e fr
+... ... om this list: CSCI-B 401 Fundamentals of Computing Theory
+... ... CSCI-B 403 Introduction to Algorithm Design and Analysis
+... ... CSCI-B 461 Database Concepts
+
+... You need a minimum of 10 specific courses for the Game Development concentration.
+... 
+
+... 
+... >>> The next concentration is Programming Languages. here are the requiremen
+... ts: 
+... ... CSCI-C 311 Programming Languages
+... ... CSCI-P 423 Compilers
+... ... Select two courses from the following:
+... ... CSCI-B 441 Digital Design
+... ... CSCI-B 461 Database Concepts
+... ... CSCI-B 490 Seminar in Computer Science (approved topic)
+... ... CSCI-C 335 Computer Structures
+... ... CSCI-P 424 Advanced Functional Programming
+... ... CSCI-P 436 Introduction to Operating Systems
+... ... Select one course from the following:
+... ... CSCI-B 401 Fundamentals of Computing Theory
+... ... CSCI-B 403 Introduction to Algorithm Design and Analysis
+... ... CSCI-P 415 Introduction to Verification
+
+... 
+ they can then pick two classes from the following:Select two courses from the following:
+... ... CSCI-B 441 Digital Design
+... ... CSCI-B 461 Database Concepts
+... ... CSCI-B 490 Seminar in Computer Science (approved topic)
+... ... CSCI-C 335 Computer Structures
+... ... CSCI-P 424 Advanced Functional Programming
+... ... CSCI-P 436 Introduction to Operating Systems
+...
+... >>> Here are all of the requirements for the Security concentration as prese
+... nted
+... ...  on the website:Math courses will also fulfill the Mathematical Science 
+... requ
+... ... irement in the major.
+... ... 
+... ... MATH-M 211 Calculus I
+... ... MATH-M 212 Calculus II OR MATH-M 213 Accelerated Calculus
+... ... MATH-M 301 Linear Algebra and Applications
+... ... MATH-M 365 Introduction to Probability and Statistics
+... ... Additional requirements:
+... ... 
+... ... CSCI-B 430 Security for Networked Systems
+... ... CSCI-B 433 Systems & Protocol Security & Information Assurance
+... ... CSCI-C 231 Introduction to Mathematics of Cybersecurity
+... ... CSCI-C 291 System Programming with C and Unix
+... ... CSCI-C 335 Computer Structures
+... ... CSCI-P 436 Introduction to Operating Systems
+... ... CSCI-P 438 Introduction to Computer Networks
+... You are absolutely right! My apologies for the continued errors.
+... 
+... You need **exactly 5** courses for the Security concentration.
+... 
+... Let's go through this one last time:
+... 
+... 1.  MATH-M 211 Calculus I
+... 2.  MATH-M 212 Calculus II OR MATH-M 213 Accelerated Calculus
+... 3.  MATH-M 301 Linear Algebra and Applications
+... 4.  MATH-M 365 Introduction to Probability and Statistics
+... 5.  CSCI-B 430 Security for Networked Systems
+... 6.  CSCI-B 433 Systems & Protocol Security & Information Assurance
+... 7.  CSCI-C 231 Introduction to Mathematics of Cybersecurity
+... 8.  CSCI-C 291 System Programming with C and Unix
+... 9.  CSCI-C 335 Computer Structures
+... 10. CSCI-P 436 Introduction to Operating Systems
+... 11. CSCI-P 438 Introduction to Computer Networks
+... 
+
+... 
+... Let's go through this one last time:
+... 
+... 1.  MATH-M 211 Calculus I
+... 2.  MATH-M 212 Calculus II OR MATH-M 213 Accelerated Calculus
+... 3.  MATH-M 301 Linear Algebra and Applications
+... 4.  MATH-M 365 Introduction to Probability and Statistics
+... 5.  CSCI-B 430 Security for Networked Systems
+... 6.  CSCI-B 433 Systems & Protocol Security & Information Assurance
+... 7.  CSCI-C 231 Introduction to Mathematics of Cybersecurity
+... 8.  CSCI-C 291 System Programming with C and Unix
+... 9.  CSCI-C 335 Computer Structures
+... 10. CSCI-P 436 Introduction to Operating Systems
+... 11. CSCI-P 438 Introduction to Computer Networks
+
+... 
+... >>> Now we will go over the requirements for the Software Engineering concen
+... trat
+... ... ion. Here is what is printed as the requirements on the website: 1. CSCI
+... -B 4
+... ... 61 Database Concepts
+... ... 
+... ... 2. CSCI-P 465 Software Engineering for Information Systems
+... ... 
+... ... 3. Select one course from the following:
+... ... 
+... ... CSCI-C 322 Object-Oriented Software Methods
+... ... CSCI-P 466 Software Engineering for Information Systems II
+... ... 4. Select one course from the following:
+... ... 
+... ... CSCI-C 323 Mobile App Development
+... ... CSCI-C 335 Computer Structures
+... ... 5. Select one course from the following:
+... ... 
+... ... CSCI-B 403 Introduction to Algorithm Design and Analysis
+... ... CSCI-P 415 Introduction to Verification
+... ... CSCI-P 423 Compilers
+... ... CSCI-P 436 Introduction to Operating Systems
+... ... 6. Select any  additional CSCI-P course
+
+... 
+... >>> Now we will go over the requirements for the conentration in Systems. Th
+... is i
+... ... s what the website says: CSCI-C 291 System Programming with C and Unix
+... ... CSCI-C 335 Computer Structures
+... ... Select one project course from the following:
+... ... CSCI-P 436 Introduction to Operating Systems
+... ... CSCI-P 438 Introduction to Computer Networks
+... ... CSCI-P 442 Digital Systems
+... ... CSCI-P 545 Embedded and Real-Time Systems
+... ... Select one additional systems course from the following (if not used abo
+... ve):
+... ... 
+... ... CSCI-P 434 Distributed Systems
+... ... CSCI-P 436 Introduction to Operating Systems
+... ... CSCI-P 438 Introduction to Computer Networks
+... ... CSCI-B 441 Digital Design
+... ... CSCI-P 442 Digital Systems
+... ... CSCI-B 443 Introduction to Computer Architecture
+... ... CSCI-B 490 Seminar in Computer Science (approved topic)
+... ... CSCI-P 545 Embedded and Real-Time Systems
+... ... Select one course from the following:
+... ... CSCI-B 401 Fundamentals of Computing Theory
+... ... CSCI-B 403 Introduction to Algorithm Design and Analysis
+... ... CSCI-P 415 Introduction to Verification
+... You are absolutely correct!
+... 
+... 
+the requirements for the Systems concentration – 6 courses, 
+... with 2 specifically designated as CSCI-C 291 System Programming with C and 
+... Unix and CSCI-C 335 Computer Structures. 
+... 
+More computer science required classes (these have already been shown but are super important so do not forget)
+... ... CI-C 211 Introduction to Computer Science
+... ... CSCI-C 212 Introduction to Software Systems
+... ... CSCI-C 241 Discrete Structures for Computer Science
+... ... CSCI-C 343 Data Structures
+... >>> CSCI-Y 395 Career Development for Computer Science Majors
+ remeber when you are buildiing class requirements per computer
+...  sci
+... ... ence student taht you should first take the list of required classes for
+...  a c
+... ... omputer science student and then add the required classes for their spec
+... iali
+... ... zation to the list of classes they need to take. Again, here are the spe
+... cifi
+... ... c required classes for all computer science majors CSCI-C 200 Introducti
+... on t
+... ... o Computers and Programming or CSCI-C 211 Introduction to Computer Scien
+... ce
+... ... CSCI-C 212 Introduction to Software Systems
+... ... CSCI-C 241 Discrete Structures for Computer Science
+... ... CSCI-C 343 Data Structures
+... ... CSCI-Y 395 Career Development for Computer Science Majors. These classes
+...  sho
+... ... uld be in every schedule
+.
+... 
+... >>> Here are additonal requirements of the CS degree from the luddy school. 
+... A co
+... ... mplete class list will be given to you at a later time but keep in mind 
+... the 
+... ... topic and credit requirements for each section. again these are the fina
+... l re
+... ... quirements to add to your knowledge of a CS degree, which you will then 
+... also
+... ...  add the list given to you of CS required classes, and the specific clas
+... ses 
+... ... that we discussed based on the specialization of the student pursuing a 
+... degr
+... ... ee in CS. Here are the general education requirements and information ab
+... out 
+... ... them from the website:Diversity in the United States (3 cr.) 
+... ... 
+... ... This is a General Education shared goal required by each school. Luddy s
+... tude
+... ... nts much check the listings for courses at  CASE requirements for the Co
+... lleg
+... ... e of Arts and Sciences. The course must be taken through the Indiana Uni
+... vers
+... ... ity Bloomington campus or an IU administered or IU co-sponsored Overseas
+...  Stu
+... ... dy program.
+... ... 
+... ... Intensive Writing (3 cr.)
+... ... One intensive writing course at the 200 level or above after completing 
+... the 
+... ... English composition requirement. Intensive writing courses at IUB are de
+... fine
+... ... d by the College of Arts and Sciences. Students must check the listings 
+... for 
+... ... courses at CASE requirements for the College of Arts and Sciences.
+... ... 
+... ... Intensive Writing credit will not be awarded for transfer courses and wi
+... ll n
+... ... ot be awarded for written work in courses that are not listed as Intensi
+... ve W
+... ... riting unless special arrangements have been completed and approved prio
+... r to
+... ...  the relevant deadline.  All special arrangements must be approved by th
+... e di
+... ... rector of undergraduate studies in the respective division.  The deadlin
+... e fo
+... ... r submitting a proposal to satisfy Intensive Writing by special arrangem
+... ent 
+... ... is the end of the 2nd week of classes (for regular semester-length cours
+... es) 
+... ... and the end of the first week of classes for a summer session course.
+... ... 
+... ... Natural Science (12 cr.)
+... ... 
+... ... Select twelve credit hours from the following:
+... ... 
+... ... PSY-P 155 Introduction to Psychological and Brain Sciences
+... ... PSY-P 211 Methods of Experimental Psychology
+... ... COGS-Q 370 Experiments and Models in Cognition
+... ... ASTRONOMY (any course)
+... ... BIOLOGY (any course)
+... ... CHEMISTRY (any course)
+... ... EARTH AND ATMOSPHERIC SCIENCES (any course)
+... ... PHYSICS (any course)
+... ... General Electives
+... ... 
+... ... Remaining credit hours may be used to fulfill minors or pursue personal 
+... inte
+... ... rests. Students may obtain a  maximum of three minors. A maximum of 4 co
+... mbin
+... ... ed HPER-E, SPH-I, SPH-O, and SPH-W credit hours and 10 MUS-X credit hour
+... s be
+... ... low the 100 level may be used in total hours
+... The general education requirements that I gave you should be applied to 
+... ever
+... ... y single undergraduate degree program, not just computer science. moving
+...  for
+... ... ward I will be giving you the requirements for other degrees within the 
+... IU l
+... ... uddy school.
+... Okay, fantastic! Thank you so much for confirming that. I appreciate you 
+... making the change – it’s crucial to keep the requirements consistent 
+... across all programs.  I’ll keep that in mind as you provide the details 
+... for other degrees.
+... 
+... Let’s proceed with that shift in focus. I’m ready when you are.
+... 
+... >>> Using your knowledge of how a correct schedule is built for CS, interpre
+... t th
+... ... is informaion in a similar way. The only main difference is that this de
+... gree
+... ...  is a BS in Informatics instead of a BS in Computer Science. Here is eve
+... ryth
+... ... ing the website says about it: Diversity in the United States (3 cr.)
+... ... 
+... ... This is a General Education shared goal required by all schools.  Luddy 
+... stud
+... ... ents must check the listings for courses at CASE requirements for the Co
+... lleg
+... ... e of Arts and Sciences. The course must be taken through the Indiana Uni
+... vers
+... ... ity Bloomington campus or an IU administered or IU co-sponsored Overseas
+...  Stu
+... ... dy program.
+... ... 
+... ... Intensive Writing (3 cr.)
+... ... One intensive writing course at the 200 level or above, with a minimum g
+... rade
+... ...  of C, after completing the English composition requirement. Intensive w
+... riti
+... ... ng courses at IUB are defined by the College of Arts and Sciences. Stude
+... nts 
+... ... must check the listings for courses at CASE requirements for the College
+...  of 
+... ... Arts and Sciences.
+... ... 
+... ... Intensive Writing credit will not be awarded for transfer courses and wi
+... ll n
+... ... ot be awarded for written work in courses that are not listed as Intensi
+... ve W
+... ... riting unless special arrangements have been completed and approved prio
+... r to
+... ...  the relevant deadline.  All special arrangements must be approved by th
+... e di
+... ... rector of undergraduate studies in the respective division.  The deadlin
+... e fo
+... ... r submitting a proposal to satisfy Intensive Writing by special arrangem
+... ent 
+... ... is the end of the 2nd week of classes (for regular semester-length cours
+... es) 
+... ... and the end of the first week of classes for a summer session course.
+... ... 
+... ... Statistics  (3 cr.)
+... ... 
+... ... This course may not double count in the Natural and Mathematical Science
+... s re
+... ... quirement.
+... ... 
+... ... Select one of the following Statistics courses:
+... ... 
+... ... ANTH-A 306 Anthropological Statistics
+... ... CJUS-K 300 Techniques of Data Analysis
+... ... ECON-E 370 Statistical Analysis for Business and Economics
+... ... MATH-M 365 Introduction to Probability and Statistics
+... ... POLS-Y 395 Quantitative Political Analysis
+... ... PSY-K 300 Statistical Techniques
+... ... PSY-K 310 Statistical Techniques
+... ... SOC-S 371 Statistics in Sociology
+... ... SPEA-K 300 Statistical Techniques
+... ... SPH-Q 381 Introduction to Biostatistics
+... ... STAT-K 310 Statistical Techniques
+... ... STAT-S 300 Introduction to Applied Statistical Methods
+... ... STAT-S 301 Applied Statistical Methods for Business
+... ... STAT-S 350 Introduction to Statistical Inference
+... ... Ethics  (3 cr.)
+... ... 
+... ... This course may not double count in the Arts and Humanities requirement.
+... 
+... ... 
+... ... Select one ethics course from the following. 
+... ... 
+... ... INFO-I 453 Computer and Information Ethics
+... ... PHIL-P 141 Introduction to Ethical Theories and Problems
+... ... PHIL-P 242 Applied Ethics
+... ... PHIL-P 340 Classics in Ethics
+... ... PHIL-P 342 Problems of Ethics
+... ... REL-R 170 Religion, Ethics, and Public Life
+... ... Arts and Humanities (6 Cr.)
+... ... 
+... ... Courses may not double count between this requirement, ethics, major, or
+...  cog
+... ... nate.
+... ... 
+... ... These courses may overlap with the Common Ground A&H.  Course lists loca
+... ted 
+... ... at CASE requirements for the College of Arts and Sciences OR in the Gene
+... ral 
+... ... Education bulletin.
+... ... 
+... ... Natural and Mathematical Sciences (3 cr.)
+... ... 
+... ... Courses may not double count between this requirement, math and statisti
+... cs, 
+... ... major, or cognate.
+... ... 
+... ... One 3 hour course plus one 5 hour course OR three 3 hour courses of N&M,
+...  exc
+... ... luding INFO-I 101. These courses may overlap with the Common Ground N&M.
+...  Cou
+... ... rse lists located at CASE requirements for the College of Arts and Scien
+... ces 
+... ... OR in the General Education bulletin.
+... ... 
+... ... General Electives
+... ... 
+... ... Remaining credit hours may be used to fulfill minors or pursue personal 
+... inte
+... ... rests. Students may obtain a  maximum of three minors. A maximum of 4 co
+... mbin
+... ... ed HPER-E, SPH-I, SPH-O, and SPH-W credit hours and 10 MUS-X credit hour
+... s be
+... ... low the 100 level may be used in total hours.
+... ... 
+... ... Major Requirements
+... ... 
+... ... A major GPA of at least 2.000 for all courses taken in the major is requ
+... ired
+... ...  (all major course attempt grades are included).
+... ... 
+... ... A minimum grade of C- or higher (unless otherwise noted) is required for
+...  a c
+... ... ourse to fulfill a requirement in the major.
+... ... 
+... ... 12 hours in the major must be completed on the Bloomington campus.
+... ... 
+... ... Required Informatics Core Courses
+... ... 
+... ... INFO-I 101 Introduction to Informatics (must complete with a minimum gra
+... de o
+... ... f C)
+... ... INFO-I 201 Mathematical Foundations of Informatics
+... ... INFO-I 202 Social Informatics OR INFO-I 222 The Information Society
+... ... INFO-I 210 Information Infrastructure I
+... ... INFO-I 211 Information Infrastructure II
+... ... INFO-I 300 Human-Computer Interaction Design and Programming - Must be c
+... ompl
+... ... eted on the Indiana University Bloomington campus
+... ... INFO-I 308 Information Representation - Must be completed on the Indiana
+...  Uni
+... ... versity Bloomington campus
+... ... INFO-Y 395 Career Development for Informatics Majors  - Must be complete
+... d on
+... ...  the Indiana University Bloomington campus
+... ... Advanced Informatics Courses
+... ... 
+... ... Advanced informatics courses may not double count as elective courses.
+... ... 
+... ... Select 6 credit hours from the following:
+... ... 
+... ... * If pursuing a Computer Science Cognate, five courses must be completed
+...  if 
+... ... substituting CSCI-C 211/C 212 for INFO-I 210/I 211 and CSCI-C 241 for IN
+... FO-I
+... ...  201 in the major (one additional course for each CSCI course used in th
+... e ma
+... ... jor).
+... ... 
+... ... INFO-I 301 Presentations for IT Professionals
+... ... INFO-I 303 Organizational Informatics
+... ... INFO-I 304 Introduction to Virtual Reality
+... ... INFO-I 310 Multimedia Arts and Technology
+... ... INFO-I 311 Application Development
+... ... INFO-I 320 Distributed Systems and Collaborative Computing
+... ... INFO-I 330 Legal and Social Informatics of Security
+... ... INFO-I 341 Prototyping for Arduino Tools
+... ... INFO-I 342 Mobile Programming
+... ... INFO-I 345 Interaction Design Research
+... ... INFO-I 346 Prototyping and Evaluation
+... ... INFO-I 356 Globalization, Where We Fit In
+... ... INFO-I 360 Web Design
+... ... INFO-I 363 Visual Design for the Web
+... ... INFO-I 365 JavaScript
+... ... INFO-I 368 Introduction to Network Science
+... ... INFO-I 369 Performance Analytics
+... ... INFO-I 370 Methods for HCC
+... ... INFO-I 390 Undergraduate Independent Study
+... ... INFO-I 399 Current Topics in Informatics
+... ... INFO-I 400 Topics in Informatics
+... ... INFO-I 403 Mobile Human Computer Interaction and Design
+... ... INFO-I 407 Introduction to Health Informatics
+... ... INFO-I 411 Animal-Computer Interaction Methods
+... ... INFO-I 412 Direct Observation and Design
+... ... INFO-I 413 Usable Artificial Intelligence
+... ... INFO-I 414 Seminar in Animal-Computer Interaction
+... ... INFO-I 421 Applications of Data Mining
+... ... INFO-I 422 Data Visualization
+... ... INFO-I 423 Big Data Applications and Analytics
+... ... INFO-I 424 Big Data Software and Projects
+... ... INFO-I 426 Informatics in Disasters and Emergency Response
+... ... INFO-I 427 Search Informatics
+... ... INFO-I 430 Security for Networked Systems
+... ... INFO-I 433 Systems & Protocol Security & Information Assurance
+... ... INFO-I 435 Management, Access, and Use of Big and Complex Data
+... ... INFO-I 436 Technology Innovation
+... ... INFO-I 437 Design Strategy
+... ... INFO-I 438 Technology Entrepreneurship
+... ... INFO-I 440 Human Robot Interaction
+... ... INFO-I 441 Interaction Design Practice
+... ... INFO-I 442 Creating Virtual Assets
+... ... INFO-I 443 Building Virtual Worlds
+... ... INFO-I 444 Artificial Life in Virtual Reality
+... ... INFO-I 453 Computer and Information Ethics
+... ... INFO-I 468 Advanced Network Science
+... ... INFO-I 469 Collective Intelligence
+... ... INFO-I 485 Bioinspired Computing
+... ... INFO-I 486 Artificial Life
+... ... INFO-I 487 Introduction to Virtual Heritage
+... ... INFO-I 488 Advanced Topics in Virtual Heritage
+... ... INFO-I 499 (3 credit hour course)
+... ... CSCI-B, C or P 300 level course
+... ... CSCI-B, C or P 400 level course 
+... ... Informatics Electives
+... ... 
+... ... Informatics elective courses may not double count as advanced informatic
+... s co
+... ... urses.
+... ... 
+... ... Courses listed below are subject to the successful completion of prerequ
+... isit
+... ... es or approval of the instructor.
+... ... 
+... ... Select 6 credit hours from the following:
+... ... 
+... ... INFO-I 301 Presentations for IT Professionals
+... ... INFO-I 303 Organizational Informatics
+... ... INFO-I 304 Introduction to Virtual Reality
+... ... INFO-I 310 Multimedia Arts and Technology
+... ... INFO-I 311 Application Development
+... ... INFO-I 320 Distributed Systems and Collaborative Computing
+... ... INFO-I 330 Legal and Social Informatics of Security
+... ... INFO-I 341 Prototyping for Arduino Tools
+... ... INFO-I 342 Mobile Programming
+... ... INFO-I 345 Interaction Design Research
+... ... INFO-I 346 Prototyping and Evaluation
+... ... INFO-I 356 Globalization, Where We Fit In
+... ... INFO-I 360 Web Design
+... ... INFO-I 363 Visual Design for the Web
+... ... INFO-I 365 JavaScript
+... ... INFO-I 368 Introduction to Network Science
+... ... INFO-I 369 Performance Analytics
+... ... INFO-I 370 Methods for HCC
+... ... INFO-I 390 Undergraduate Independent Study 
+... ... INFO-I 399 Current Topics in Informatics 
+... ... INFO-I 400 Topics in Informatics
+... ... INFO-I 403 Mobile Human Computer Interaction and Design
+... ... INFO-I 407 Introduction to Health Informatics
+... ... INFO-I 411 Animal-Computer Interaction Methods
+... ... INFO-I 412 Direct Observation and Design
+... ... INFO-I 413 Usable Artificial Intelligence
+... ... INFO-I 414 Seminar in Animal-Computer Interaction
+... ... INFO-I 421 Applications of Data Mining
+... ... INFO-I 422 Data Visualization
+... ... INFO-I 423 Big Data Applications and Analytics
+... ... INFO-I 424 Big Data Software and Projects
+... ... INFO-I 426 Informatics in Disasters and Emergency Response
+... ... INFO-I 427 Search Informatics
+... ... INFO-I 430 Security for Networked Systems
+... ... INFO-I 433 Systems & Protocol Security & Information Assurance
+... ... INFO-I 435 Management, Access, and Use of Big and Complex Data
+... ... INFO-I 436 Technology Innovation
+... ... INFO-I 437 Design Strategy
+... ... INFO-I 438 Technology Entrepreneurship
+... ... INFO-I 440 Human Robot Interaction
+... ... INFO-I 441 Interaction Design Practice
+... ... INFO-I 442 Creating Virtual Assets
+... ... INFO-I 443 Building Virtual Worlds
+... ... INFO-I 444 Artificial Life in Virtual Reality
+... ... INFO-I 453 Computer and Information Ethics
+... ... INFO-I 468 Advanced Network Science
+... ... INFO-I 469 Collective Intelligence
+... ... INFO-I 485 Bioinspired Computing
+... ... INFO-I 486 Artificial Life
+... ... INFO-I 487 Introduction to Virtual Heritage
+... ... INFO-I 488 Advanced Topics in Virtual Heritage
+... ... INFO-I 499 (3 credit hour course)
+... ... BUS-K 303 Technology and Business Analysis
+... ... BUS-S 302 Management Information Systems
+... ... BUS-S 305 Technology Infrastructure
+... ... BUS-S 307 Data Management
+... ... BUS-S 308 Business Application Development
+... ... BUS-S 310 Systems Analysis and Project Management
+... ... BUS-S 433 Information Systems Security
+... ... CJUS-P 300 Topics in Criminal Justice (Topic: Cyber Crime & Digital Evid
+... ence
+... ... )
+... ... COGS-Q 351 Introduction to Artificial Intelligence and Computer Simulati
+... on
+... ... CSCI- Any course at the 300 or 400 level (3 credit hour course)
+... ... MSCH-G 300 Game Production I
+... ... MSCH-G 310 Game Design I: Concepts
+... ... MSCH-G 400 Game Production II
+... ... MSCH-G 410 Games Design II: Systems
+... ... MSCH-G 420 Advanced Game Art I
+... ... MSCH-G 430 Game Art II
+... ... MSCH-G 450 Game Workshop I: Prototype
+... ... MSCH-H 300 EPS Communications Law
+... ... MSCH-J 300 Communications Law
+... ... MSCH-J 360 Journalism Specialties (Topic: Esports Journalism)
+... ... MSCH-J 448 Global Journalism: Issues and Research
+... ... MSCH-L 322 Telecommunications Policymaking
+... ... MSCH-L 425 Telecommunications Regulation
+... ... MSCH-M 421 Economics of Communications Industries
+... ... MSCH-P 351 Video Field and Post Production
+... ... MSCH-P 353 Audio Production
+... ... MSCH-P 354 Program Graphics and Animation
+... ... MSCH-P 356 TV Studio Production
+... ... MSCH-P 369 Sound Design
+... ... MSCH-P 433 Video Documentary
+... ... MSCH-P 434 Documentary Production
+... ... MSCH-P 452 Topical Seminar in Design and Production (Topic: Advanced Vid
+... eo G
+... ... ame Design and Production)
+... ... MSCH-P 454 DVD Authoring
+... ... MSCH-T 427 International Telecommunications
+... ... SOAD-S 310 Interactive Media
+... ... SOC-S 339 The Sociology of Media
+... ... SOC-S 377 Digital Society
+... ... SPEA-V 369 Managing Information Technology
+... ... Capstone
+... ... Select one of the following capstone options for a total of 6 hours:
+... ... 
+... ... INFO-I 494/I 495 Design and Development of an Information System - Must 
+... be c
+... ... ompleted on the Indiana University Bloomington campus
+... ... INFO-I 491 Capstone Project Internship - Must be enrolled through Indian
+... a Un
+... ... iversity Bloomington
+... ... INFO-I 489 Serve IT Capstone Internship Informatics - Must be enrolled t
+... hrou
+... ... gh Indiana University Bloomington
+... ... INFO-I 492/I 493 Senior Thesis - Must be enrolled through Indiana Univer
+... sity
+... ...  Bloomington
+... ... Cognate Area Courses
+... ... 
+... ... Students should, in consultation with their academic advisor, choose a c
+... ogna
+... ... te area before their sophomore year. Students must receive a minimum gra
+... de o
+... ... f C- in each course and a cumulative GPA of 2.0 or higher in their cogna
+... te a
+... ... rea.  Cognate area courses may not double count in any area except the C
+... ommo
+... ... n Ground General Education requirements .  Please consult the cognate ar
+... ea o
+... ... f this bulletin for the list of cognate areas.
+...
+... >>> We are now going to go over the degree requirements for a BS in Data sci
+... ence
+... ... . Be sure to include the general education requirements on top of the re
+... quir
+... ... ed classes for this degree. the required classes for this degree that ev
+... ery 
+... ... Data science student must take regardless of concentration area are: Div
+... ersi
+... ... ty and Ethics (3 cr.)
+... ... 
+... ... ILS-Z 410 Social and Ethical Impacts of Big Data
+... ... Mathematics and Science Foundations (10 cr.)
+... ... 
+... ... MATH-E 201 Linear Algebra for Data Science
+... ... MATH-E 265 Probability for Data Science (new course)
+... ... MATH-M 211 Calculus I
+... ... Programming and Discrete Structures (7 cr.)
+... ... 
+... ... CSCI-C 200 Introduction to Computers and Programming or INFO-I 210 Infor
+... mati
+... ... on Infrastructure
+... ... CSCI-C 241 Discrete Structures for Computer Science or INFO-I 201 Mathem
+... atic
+... ... al Foundations of Informatics 
+... ... Core courses:
+... ... 
+... ... CSCI-A 310 Problem Solving Using Data
+... ... DSCI-D 321 Data Representation and Processing
+... ... DSCI-D 351 Big Data Analytics
+... ... INFO-I 123 Data Fluency
+... ... STAT-S 350 Introduction to Statistical Inference
+... ... STAT-S 352 Data Modeling and Inference
+... ... Capstone:
+... ... 
+... ... DSCI-D 498 Data Science Capstone I 
+... ... DSCI-D 499 Data Science Capstone II . The student must also take 10 cred
+... its 
+... ... of a natural science
+... 
+... 
+... >>> We are now going to go over the requirements for the BS in Intelligent S
+... yste
+... ... ms Engineering. Similar to the other degree programs, this degree requir
+... es b
+... ... oth the Luddy general education requirements and the requirements for th
+... e sp
+... ... ecific degree. Here are the classes that are required for all Intelligen
+... t sy
+... ... stem engineering majors on top of the general education requirements:Nat
+... ural
+... ...  and Mathematical Sciences
+... ... 
+... ... Must complete:
+... ... 
+... ... MATH-M 211 Calculus I
+... ... MATH-M 212 Calculus II
+... ... PHYS-P 221 Physics I
+... ... PHYS-P 222 Physics II
+... ... Select 1 course from the following:
+... ... 
+... ... MATH-M 365 Introduction to Probability and Statistics
+... ... STAT-S 350 Introduction to Statistical Inference
+... ... 300 level statistics equivalent with approval of DUGS
+... ... 
+... ... Core courses
+... ... 
+... ... Must complete:
+... ... 
+... ... ENGR-E 101 Innovation and Design
+... ... ENGR-E 110 Engineering Computing Architectures
+... ... ENGR-E 111 Software Systems Engineering
+... ... ENGR-E 201 Computer Systems Engineering
+... ... ENGR-E 221 Intelligent Systems I
+... ... ENGR-E 225 Introduction to Circuits
+... ... ENGR-E 250 Systems, Signals, and Control
+... ... ENGR-E 299 Engineering Professionalization and Ethics
+... ... ENGR-E 332 Introduction to Modeling and Simulation
+... ... ENGR-Y 395 Career Development for ISE Majors
+... ... MATH-E 449 Advanced Undergraduate Engineering Mathematical Methods
+... ... Each semester Undergraduate Research or Internship will be available.
+... ... 
+... ... Capstone
+... ... 
+... ... Must complete:
+... ... 
+... ... ENGR-E 490 Engineering Capstone Design I
+... ... ENGR-E 491 Engineering Capstone Design II
+... 
+... 
+... 
