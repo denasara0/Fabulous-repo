@@ -1,129 +1,56 @@
-# Smart Course Selector AI Agent
+## Inspiration
+The inspiration behind Alyssa: AI-powered Course Advisor stems from the need to simplify and enhance the course selection process for students. With the growing complexity of university course catalogs, credit requirements, and career-focused academic pathways, students often struggle to make the right choices. Our goal was to create an intelligent assistant that could guide students through course selection based on their career aspirations, personal preferences, and academic needs. Alyssa is designed to be a one-stop solution, streamlining the process and making it more accessible, personalized, and data-driven.
 
-## Overview
+## What it does
+Alyssa helps students choose the most suitable courses for an upcoming semester. By interacting with the user, Alyssa gathers information about the student’s career goals, course preferences, enrollment type, and credit requirements. Based on this data, the AI then recommends courses, checks prerequisites, and ensures credit limits are met. The chatbot also allows students to modify their selections, view available time slots, and finalize their course choices, all while offering a user-friendly conversational interface.
 
-The **Smart Course Selector AI Agent** is an AI-powered chatbot designed to help students choose the most suitable courses for an upcoming semester. The chatbot recommends courses based on a student's career goals, preferences, course prerequisites, credit requirements, and course availability.
+To inform these recommendations, Alyssa leverages a variety of data sources: historical grade distributions, professor ratings, OCQ (student course evaluations), structured prerequisite data, and degree requirement mappings. These allow the AI to assess course difficulty, identify good professor matches, and ensure that suggested courses fulfill degree progress and eligibility requirements.
 
-This project is built using **React** for the frontend, **Django** for the backend, **MongoDB** for data storage, and uses the **Gemma** machine learning model to process user inputs and recommend courses.
+## How we built it
+**Frontend:** React was used to develop the user interface.
 
----
+**Backend:** Ollama was used to run a local `gemma3:4b` model that we provided custom training data to. The data we provided included:
 
-## Tech Stack
+- Class listings and structured prerequisites  
+- All required classes and electives for each degree and specialization  
+- Historical grade distribution data for CSCI/INFO courses  
+- Rate My Professor-style feedback on clarity, helpfulness, and flexibility  
+- Official Course Questionnaire (OCQ) student evaluations with insight into challenge level, teaching style, and learning expectations  
 
-- **Frontend:** React
-- **Backend:** Django
-- **Database:** MongoDB
-- **Chatbot Framework:** [react-chatbotify](https://github.com/tjtanjin/react-chatbotify)
-- **Machine Learning Model:** LLaMA 3 1B
+These datasets were scraped using custom Python and Node.js scripts from Indiana University’s course and evaluation portals. The data was processed into structured formats (e.g., JSON) and used both in training and during inference to support dynamic, accurate course advising.
 
----
+The flexible `gemma3:4b` model allows Alyssa to utilize this information intelligently while conversing naturally in plain English.
 
-## Key Features
+**Project Management:** This project (both the frontend and backend) was developed using Node.js to build and host the React app, as well as to facilitate the packages used for API requests between the frontend and the backend.
 
-1. **Landing Page**:
-   - A basic landing page built with React that serves as the introduction to the course selector tool. The landing page also provides basic information about the functionality of the chatbot
+**Machine Learning:** We used the `gemma3:4b` model for processing user input and recommending relevant courses based on user preferences and goals.
 
-2. **AI Chatbot**:
-   - Integrated **React-based conversational UI** using the [react-chatbotify](https://github.com/tjtanjin/react-chatbotify) framework.
-   - Uses the **LLaMA 3 1B** machine learning model to process student inputs and provide relevant course recommendations based on the selected career goals, preferences, and available credits.
+**API Endpoints:** The backend exposes several API endpoints to facilitate the course recommendation system, such as endpoints to filter courses, manage user sessions, and handle career options.
 
-3. **Course Selection Flow**:
-   - The chatbot interacts with users, asking for information such as:
-     - Enrollment type (graduate/undergraduate, full-time/part-time)
-     - Career goals (e.g., Data Scientist, UX Designer, Product Manager)
-     - Course preferences (challenging or easier classes, grade distributions)
-   - Based on the answers, the chatbot provides course recommendations, checks prerequisites, and ensures total credits are within the allowed limits.
-   - Offers options to modify selections, view available time slots, and finalize the course selection.
+## Challenges we ran into
+**Integration of the `gemma3:4b`:** One of the major challenges was integrating the model into the system for processing and interpreting user input. Ensuring that the model provided accurate and relevant course suggestions required substantial data preprocessing and training, especially to account for the variety of data types (numerical, textual, structural) such as OCQs, prerequisites, and degree audits.
 
----
+**Session Management:** Managing user sessions in the context of an interactive chatbot posed a challenge, especially when users would return to the chat after a while. We had to ensure that session data was correctly maintained across interactions.
 
-## Progress So Far
+**Frontend-Backend Synchronization:** Ensuring smooth communication between the frontend React interface and the Ollama backend was a key challenge. We had to fine-tune API endpoints and ensure that the data flow was seamless for real-time recommendations.
 
-### **Frontend:**
-- Completed **Landing Page**.
-- Integrated **React-based chatbot** using the [react-chatbotify](https://github.com/tjtanjin/react-chatbotify) framework.
-- Combined chatbot with the landing page.
+**Limitations with training:** We needed to switch AI models and adjust prompts accordingly to ensure that the training process went smoothly. The process of gathering data (from grade distributions to professor feedback) and using it to train the bot proved far more challenging and time-consuming than anticipated but was also highly rewarding as a learning experience.
 
-### **AI/ML Integration:**
-- **LLaMA 3 1B** model selected for processing user input.
-- **Model training** based on course data, professor information, and course credits. Due to time constraints, the bot is currently only trained for the undergraduate computer science major, and all concentrations.
+## Accomplishments that we're proud of
+**Successful AI Integration:** We are particularly proud of how we integrated the `gemma3:4b` model into the chatbot, enabling it to provide highly relevant course recommendations based on user input.
 
-### **Backend:**
-- **Django Project Setup**:
-  - Created a Django project (`course_selector`) and connected to **MongoDB** using **Djongo**.
-  - Set up the backend to handle API requests for course filtering, career goal selection, and user session management.
+**Chatbot Interaction:** The chatbot’s ability to handle complex user queries regarding course selections and career goals is a significant accomplishment. It gives users a more interactive, guided experience compared to traditional course catalog browsing.
 
-- **Models Created:**
-  - Course catalogs
-  - Student preferences
-  - Selected courses
+**Chatbot Streaming:** Rather than waiting for the chatbot to generate the entire response before displaying, the chatbot backend API (Ollama) allows us to stream the response in real time as it is generated, and display it to the user. This reduces the amount of time the user is looking at a loading screen, and maximizes interactivity.
 
-## User Journey
+**Seamless Frontend-Backend Setup:** We were able to create a seamless connection between the React frontend and the Ollama backend, enabling real-time interaction with the course selection process.
 
-1. **Ask for Enrollment Type**:
-   - Are you a graduate or undergraduate student?
-   - Are you full-time or part-time?
-   - What is your major? What are your career goals?
+## What we learned
 
-2. **Career Goal Selection**:
-   - Career options such as [Data Scientist], [UX Designer], and [Product Manager].
+**AI Model Integration:** We learned how to incorporate large-scale AI models (like `gemma3:4b`) into real-world applications and how to fine-tune them to perform specific tasks such as course recommendation.
 
-3. **Display Courses**:
-   - Courses are recommended based on the selected career goal.
+**Chatbot Development:** Through working with the React and REST API framework, we learned how to build interactive, dynamic chatbots and improve user engagement through conversation.
 
-4. **Prerequisite Check**:
-   - If prerequisites are met, proceed; if not, users are redirected to available courses.
+**Backend-Frontend Communication:** We gained valuable experience in managing data synchronization between the frontend and backend, making sure that the app is responsive and efficient for users.
 
-5. **Time Slot Availability**:
-   - Check for time slot clashes with already selected courses.
-
-6. **Finalize Course Selection**:
-   - Users can review their course selections and ensure they are within the credit limits.
-
----
-
-## Remaining Tasks
-
-While the core functionality is already in place, a few tasks are still pending to fine-tune the experience:
-
-- **Complete API Endpoints**:
-  - A couple of endpoints need further refinement for seamless integration between the frontend and backend. This will ensure smoother course selection and credit tracking.
-
-- **Session Handling & Validation**:
-  - Need to finalize how session management will work when users refresh or end their chat. This is a relatively minor task that will be added as we test the system.
-
-These tasks are manageable and won't take much time to wrap up.
-
----
-
-## Future Enhancements
-
-We’ve made great progress with the AI chatbot and course selector features, and here are a few things we plan to improve or add down the line:
-
-- **Expanded Course Catalog**: We can add more courses and career options to make the tool more comprehensive.
-- **Real-time Course Availability**: Fetch live course data to check availability and adjust recommendations accordingly.
-- **User Accounts**: Allow students to save and track their course selections for future semesters.
-- **Advanced Chatbot Interaction**: Fine-tune the chatbot to better understand user preferences and provide more personalized course suggestions.
-
-While these features would definitely enhance the app, the current version already provides the core functionality for selecting courses based on career goals and credit requirements.
-
----
-
-## Setup Instructions
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/denasara0/Fabulous-repo.git
-
-2. Install frontend dependencies:
-
-    cd Fabulous-repo
-    npm install
-3. Set up the backend (Django):
-    cd course_selector
-    python manage.py runserver
-4. To run the app in development mode:
-    npm start
-    Open http://localhost:3000 in your browser.
-
+**Data-Driven Advising:** We also learned the importance of data cleanliness and contextual relevance. Parsing student evaluations, mapping prerequisites, and identifying course overlap all presented unique challenges that deepened our understanding of educational data systems.
