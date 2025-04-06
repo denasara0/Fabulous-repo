@@ -1,94 +1,94 @@
 Name,Department,School,Quality,Number of Ratings,Would Take Again,Difficulty
-Amr Sabry,Computer Science,Indiana University Bloomington,2.6,39,39 ratings 44%,3.7
-Jeremy Siek,Computer Science,Indiana University Bloomington,4.9,28,28 ratings 100%,4.4
-Jeremy Musser,Computer Science,Indiana University Bloomington,5,17,17 ratings 100%,4.1
-Qin Zhang,Computer Science,Indiana University Bloomington,1.4,11,11 ratings 19%,3.4
-Kurt Seiffert,Computer Science,Indiana University Bloomington,2.4,9,9 ratings 45%,3.1
+Amr Sabry,Computer Science,Indiana University Bloomington,2.6,39,44%,3.7
+Jeremy Siek,Computer Science,Indiana University Bloomington,4.9,28,100%,4.4
+Jeremy Musser,Computer Science,Indiana University Bloomington,5,17,100%,4.1
+Qin Zhang,Computer Science,Indiana University Bloomington,1.4,11,19%,3.4
+Kurt Seiffert,Computer Science,Indiana University Bloomington,2.4,9,45%,3.1
 Nicholas LaRacuente,Computer Science,Indiana University Bloomington,3,1,100%,3
-Kyle Li,Computer Science,Indiana University Bloomington,5,2,2 ratings 100%,3.5
-Suprovat Ghosh,Computer Science,Indiana University Bloomington,1,1,1 ratings 0%,5
-Jeff Whitmer,Computer Science,Indiana University Bloomington,2.1,38,38 ratings 19%,3.7
-Nasim Anoushe,Computer Science,Indiana University Bloomington,2.4,5,5 ratings 20%,4
-sakher qaaidi,Computer Science,Indiana University Bloomington,3.8,5,5 ratings 60%,3.2
+Kyle Li,Computer Science,Indiana University Bloomington,5,2,100%,3.5
+Suprovat Ghosh,Computer Science,Indiana University Bloomington,1,1,0%,5
+Jeff Whitmer,Computer Science,Indiana University Bloomington,2.1,38,19%,3.7
+Nasim Anoushe,Computer Science,Indiana University Bloomington,2.4,5,20%,4
+sakher qaaidi,Computer Science,Indiana University Bloomington,3.8,5,60%,3.2
 Mitja Hmeljak,Computer Science,Indiana University Bloomington,1.7,35,18%,3.7
 Dan-Adrian German,Computer Science,Indiana University Bloomington,3.9,107,70%,2.5
 Dongfang Zhao,Computer Science,Indiana University Bloomington,1,1,0%,2
 Fengguang Song,Computer Science,Indiana University Bloomington,3.7,7,72%,3.3
-Mehmet Dalkili,Computer Science,Indiana University Bloomington,3.4,16,16 ratings 69%,3.7
+Mehmet Dalkili,Computer Science,Indiana University Bloomington,3.4,16,69%,3.7
 Chung-chien Shan,Computer Science,Indiana University Bloomington,2.4,17,30%,3.9
-Joshua Crotts,Computer Science,Indiana University Bloomington,5,30,30 ratings 100%,3
-Alexander Haye,Computer Science,Indiana University Bloomington,4.5,2,2 ratings 100%,3.5
+Joshua Crotts,Computer Science,Indiana University Bloomington,5,30,100%,3
+Alexander Haye,Computer Science,Indiana University Bloomington,4.5,2,100%,3.5
 Hamidreza Bahramian,Computer Science,Indiana University Bloomington,3.3,15,67%,4.3
-Yijie Wang,Computer Science,Indiana University Bloomington,1.3,4,4 ratings 0%,4.3
-Muazzam Siddi,Computer Science,Indiana University Bloomington,2,32,32 ratings 25%,3.8
-Yong-Yeol Ahn,Computer Science,Indiana University Bloomington,1.5,2,2 ratings 0%,4.5
-Bowen Basker,Computer Science,Indiana University Bloomington,5,1,1 ratings 100%,3
-Da Yan,Computer Science,Indiana University Bloomington,1,2,2 ratings 0%,4
-Carlo Angiuli,Computer Science,Indiana University Bloomington,5,1,1 ratings 100%,2
-Andrew Holland,Computer Science,Indiana University Bloomington,1,1,1 ratings 0%,5
-Daniel Leivant,Computer Science,Indiana University Bloomington,2,13,13 ratings 10%,4
-Charles Pope,Computer Science,Indiana University Bloomington,3.2,92,92 ratings 71%,2.3
-Chenghua Tao,Computer Science,Indiana University Bloomington,3,1,1 ratings 0%,1
-Isak Asare,Computer Science,Indiana University Bloomington,5,2,2 ratings 100%,1.5
-Predrag Radivo,Computer Science,Indiana University Bloomington,4.7,7,7 ratings 80%,4.3
-Michael Frutige,Computer Science,Indiana University Bloomington,4.2,5,5 ratings 100%,2.8
-Yan Huang,Computer Science,Indiana University Bloomington,2.3,3,3 ratings 34%,3
-Xiaojing Liao,Computer Science,Indiana University Bloomington,1.8,6,6 ratings 17%,3.7
+Yijie Wang,Computer Science,Indiana University Bloomington,1.3,4,0%,4.3
+Muazzam Siddi,Computer Science,Indiana University Bloomington,2,32,25%,3.8
+Yong-Yeol Ahn,Computer Science,Indiana University Bloomington,1.5,2,0%,4.5
+Bowen Basker,Computer Science,Indiana University Bloomington,5,1,100%,3
+Da Yan,Computer Science,Indiana University Bloomington,1,2,0%,4
+Carlo Angiuli,Computer Science,Indiana University Bloomington,5,1,100%,2
+Andrew Holland,Computer Science,Indiana University Bloomington,1,1,0%,5
+Daniel Leivant,Computer Science,Indiana University Bloomington,2,13,10%,4
+Charles Pope,Computer Science,Indiana University Bloomington,3.2,92,71%,2.3
+Chenghua Tao,Computer Science,Indiana University Bloomington,3,1,0%,1
+Isak Asare,Computer Science,Indiana University Bloomington,5,2,100%,1.5
+Predrag Radivo,Computer Science,Indiana University Bloomington,4.7,7,80%,4.3
+Michael Frutige,Computer Science,Indiana University Bloomington,4.2,5,100%,2.8
+Yan Huang,Computer Science,Indiana University Bloomington,2.3,3,34%,3
+Xiaojing Liao,Computer Science,Indiana University Bloomington,1.8,6,17%,3.7
 Christopher Raphael,Computer Science,Indiana University Bloomington,2.2,18,19%,4.1
-Vel Malbasa,Computer Science,Indiana University Bloomington,3.6,14,14 ratings 80%,3.4
+Vel Malbasa,Computer Science,Indiana University Bloomington,3.6,14,80%,3.4
 Sam Tobin Hochstadt,Computer Science,Indiana University Bloomington,3.5,8,75%,3.5
-Chabane Maidi,Computer Science,Indiana University Bloomington,4.3,8,8 ratings 75%,2.5
-Prateek Sharm,Computer Science,Indiana University Bloomington,2.6,9,9 ratings 34%,3.6
-Hasan Kurban,Computer Science,Indiana University Bloomington,2.6,8,8 ratings 25%,3.4
-Dan Friedman,Computer Science,Indiana University Bloomington,2.9,34,34 ratings 46%,4.2
-Nazim Ashraf,Computer Science,Indiana University Bloomington,5,2,2 ratings 100%,2
-Hassan Kurban,Computer Science,Indiana University Bloomington,1.4,5,5 ratings 0%,3.8
-Dirk Van Gucht,Computer Science,Indiana University Bloomington,3.3,26,26 ratings 42%,3.6
-Adeel Bhutta,Computer Science,Indiana University Bloomington,3.3,44,44 ratings 57%,4.1
-Mohsen Heidar,Computer Science,Indiana University Bloomington,5,1,1 ratings 100%,4
-Jason Francis,Computer Science,Indiana University Bloomington,5,1,1 ratings 100%,3
-Martin Swany,Computer Science,Indiana University Bloomington,3,24,24 ratings 40%,3.7
+Chabane Maidi,Computer Science,Indiana University Bloomington,4.3,8,75%,2.5
+Prateek Sharm,Computer Science,Indiana University Bloomington,2.6,9,34%,3.6
+Hasan Kurban,Computer Science,Indiana University Bloomington,2.6,8,25%,3.4
+Dan Friedman,Computer Science,Indiana University Bloomington,2.9,34,46%,4.2
+Nazim Ashraf,Computer Science,Indiana University Bloomington,5,2,100%,2
+Hassan Kurban,Computer Science,Indiana University Bloomington,1.4,5,0%,3.8
+Dirk Van Gucht,Computer Science,Indiana University Bloomington,3.3,26,42%,3.6
+Adeel Bhutta,Computer Science,Indiana University Bloomington,3.3,44,57%,4.1
+Mohsen Heidar,Computer Science,Indiana University Bloomington,5,1,100%,4
+Jason Francis,Computer Science,Indiana University Bloomington,5,1,100%,3
+Martin Swany,Computer Science,Indiana University Bloomington,3,24,40%,3.7
 Mohsen Heidar Khoozani,Computer Science,Indiana University Bloomington,5,1,100%,4
-Ruth Eberle,Computer Science,Indiana University Bloomington,4.2,11,11 ratings 100%,2.7
-David Crandall,Computer Science,Indiana University Bloomington,4.1,11,11 ratings 73%,4.2
-Wei Tang,Computer Science,Indiana University Bloomington,1,1,1 ratings 0%,5
-Gregory Rawlin,Computer Science,Indiana University Bloomington,2.5,22,22 ratings 25%,3.5
-Sara Wallbridg,Computer Science,Indiana University Bloomington,4.5,2,2 ratings 100%,4
-Rui Zhu,Computer Science,Indiana University Bloomington,3,1,1 ratings 100%,5
+Ruth Eberle,Computer Science,Indiana University Bloomington,4.2,11,100%,2.7
+David Crandall,Computer Science,Indiana University Bloomington,4.1,11,73%,4.2
+Wei Tang,Computer Science,Indiana University Bloomington,1,1,0%,5
+Gregory Rawlin,Computer Science,Indiana University Bloomington,2.5,22,25%,3.5
+Sara Wallbridg,Computer Science,Indiana University Bloomington,4.5,2,100%,4
+Rui Zhu,Computer Science,Indiana University Bloomington,3,1,100%,5
 Geoffrey Brown,Computer Science,Indiana University Bloomington,2.1,26,5%,4
-Roni Khardon,Computer Science,Indiana University Bloomington,5,2,2 ratings 100%,3.5
-Jaci Wilkinson,Computer Science,Indiana University Bloomington,4,1,1 ratings 100%,4
-Yuzen Ye,Computer Science,Indiana University Bloomington,3,2,2 ratings 50%,3
-Sameer Patil,Computer Science,Indiana University Bloomington,1,2,2 ratings 0%,3.5
-Jeffrey Yu,Computer Science,Indiana University Bloomington,5,2,2 ratings 100%,3
-Bryce Himbaug,Computer Science,Indiana University Bloomington,5,1,1 ratings 100%,3
-James Julovich,Computer Science,Indiana University Bloomington,2.5,10,10 ratings 80%,3.7
-Ying Ding,Computer Science,Indiana University Bloomington,2,2,2 ratings 50%,2
-Suzanne Menze,Computer Science,Indiana University Bloomington,3.7,47,47 ratings 40%,3.7
-Korhan Bircan,Computer Science,Indiana University Bloomington,3.4,3,3 ratings 0%,3.3
-Ladislav Novak,Computer Science,Indiana University Bloomington,3.5,2,2 ratings 50%,3.5
-Andy Somogyi,Computer Science,Indiana University Bloomington,2.7,11,11 ratings 13%,4.5
-David Leake,Computer Science,Indiana University Bloomington,4.7,5,5 ratings 100%,3
-Brian Schack,Computer Science,Indiana University Bloomington,5,2,2 ratings 100%,4.5
+Roni Khardon,Computer Science,Indiana University Bloomington,5,2,100%,3.5
+Jaci Wilkinson,Computer Science,Indiana University Bloomington,4,1,100%,4
+Yuzen Ye,Computer Science,Indiana University Bloomington,3,2,50%,3
+Sameer Patil,Computer Science,Indiana University Bloomington,1,2,0%,3.5
+Jeffrey Yu,Computer Science,Indiana University Bloomington,5,2,100%,3
+Bryce Himbaug,Computer Science,Indiana University Bloomington,5,1,100%,3
+James Julovich,Computer Science,Indiana University Bloomington,2.5,10,80%,3.7
+Ying Ding,Computer Science,Indiana University Bloomington,2,2,50%,2
+Suzanne Menze,Computer Science,Indiana University Bloomington,3.7,47,40%,3.7
+Korhan Bircan,Computer Science,Indiana University Bloomington,3.4,3,0%,3.3
+Ladislav Novak,Computer Science,Indiana University Bloomington,3.5,2,50%,3.5
+Andy Somogyi,Computer Science,Indiana University Bloomington,2.7,11,13%,4.5
+David Leake,Computer Science,Indiana University Bloomington,4.7,5,100%,3
+Brian Schack,Computer Science,Indiana University Bloomington,5,2,100%,4.5
 Judy Qiu,Computer Science,Indiana University Bloomington,2.5,9,100%,2.6
-Beth Plale,Computer Science,Indiana University Bloomington,1.2,7,7 ratings 0%,3.7
-Martha White,Computer Science,Indiana University Bloomington,4,4,4 ratings 100%,3.8
-Balaprasath Rajan,Computer Science,Indiana University Bloomington,3.3,3,3 ratings NA,2.7
-Randall Bramley,Computer Science,Indiana University Bloomington,3,4,4 ratings NA,2.3
-Raquel Hill,Computer Science,Indiana University Bloomington,4,2,2 ratings NA,3
-Ryan Newton,Computer Science,Indiana University Bloomington,5,1,1 ratings NA,4
-David Hakken,Computer Science,Indiana University Bloomington,1.9,4,4 ratings NA,3.5
-Francisco Lara Dammer,Computer Science,Indiana University Bloomington,2.1,11,11 ratings NA,4
-Funda Ergun,Computer Science,Indiana University Bloomington,4.3,2,2 ratings NA,3
-Paul Purdom,Computer Science,Indiana University Bloomington,1.6,11,11 ratings NA,4.6
-Deep Ved,Computer Science,Indiana University Bloomington,4.8,3,3 ratings NA,1.7
-Kay Connelly,Computer Science,Indiana University Bloomington,2.7,3,3 ratings NA,1.7
-Yuqing Wu,Computer Science,Indiana University Bloomington,3.7,5,5 ratings NA,2.6
-Minaxi Gupta,Computer Science,Indiana University Bloomington,2.9,3,3 ratings NA,3.7
-Johnathan Mills,Computer Science,Indiana University Bloomington,4.2,13,13 ratings NA,1.4
-Will Byrd,Computer Science,Indiana University Bloomington,3.5,1,1 ratings NA,2
-Chris Haynes,Computer Science,Indiana University Bloomington,2.2,23,23 ratings NA,3.8
-Michael Gassel,Computer Science,Indiana University Bloomington,3.1,5,5 ratings NA,3.4
-R. Kent Dybvig,Computer Science,Indiana University Bloomington,3.4,9,9 ratings NA,3.7
-Saurabh Ajmer,Computer Science,Indiana University Bloomington,3.5,3,3 ratings NA,2.3
-David Wise,Computer Science,Indiana University Bloomington,2.5,11,11 ratings NA,3.8
+Beth Plale,Computer Science,Indiana University Bloomington,1.2,7,0%,3.7
+Martha White,Computer Science,Indiana University Bloomington,4,4,100%,3.8
+Balaprasath Rajan,Computer Science,Indiana University Bloomington,3.3,3,NA,2.7
+Randall Bramley,Computer Science,Indiana University Bloomington,3,4,NA,2.3
+Raquel Hill,Computer Science,Indiana University Bloomington,4,2,NA,3
+Ryan Newton,Computer Science,Indiana University Bloomington,5,1,NA,4
+David Hakken,Computer Science,Indiana University Bloomington,1.9,4,NA,3.5
+Francisco Lara Dammer,Computer Science,Indiana University Bloomington,2.1,11,NA,4
+Funda Ergun,Computer Science,Indiana University Bloomington,4.3,2,NA,3
+Paul Purdom,Computer Science,Indiana University Bloomington,1.6,11,NA,4.6
+Deep Ved,Computer Science,Indiana University Bloomington,4.8,3,NA,1.7
+Kay Connelly,Computer Science,Indiana University Bloomington,2.7,3,NA,1.7
+Yuqing Wu,Computer Science,Indiana University Bloomington,3.7,5,NA,2.6
+Minaxi Gupta,Computer Science,Indiana University Bloomington,2.9,3,NA,3.7
+Johnathan Mills,Computer Science,Indiana University Bloomington,4.2,13,NA,1.4
+Will Byrd,Computer Science,Indiana University Bloomington,3.5,1,NA,2
+Chris Haynes,Computer Science,Indiana University Bloomington,2.2,23,NA,3.8
+Michael Gassel,Computer Science,Indiana University Bloomington,3.1,5,NA,3.4
+R. Kent Dybvig,Computer Science,Indiana University Bloomington,3.4,9,NA,3.7
+Saurabh Ajmer,Computer Science,Indiana University Bloomington,3.5,3,NA,2.3
+David Wise,Computer Science,Indiana University Bloomington,2.5,11,NA,3.8
