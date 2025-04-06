@@ -1,0 +1,488 @@
+[
+ {
+   "Name": "Chase McCoy",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.8,
+   "Number of Ratings": 31,
+   "Would Take Again": "100%",
+   "Difficulty": 1.9
+ },
+ {
+   "Name": "Daniel Pierz",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 7,
+   "Would Take Again": "100%",
+   "Difficulty": 3.1
+ },
+ {
+   "Name": "Samantha Wood",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4,
+   "Number of Ratings": 3,
+   "Would Take Again": "67%",
+   "Difficulty": 1.3
+ },
+ {
+   "Name": "Dana Habeeb",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 12,
+   "Would Take Again": "0%",
+   "Difficulty": 3.9
+ },
+ {
+   "Name": "Nathan Ensmenger",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4,
+   "Number of Ratings": 13,
+   "Would Take Again": "67%",
+   "Difficulty": 2.8
+ },
+ {
+   "Name": "Katie Siek",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.2,
+   "Number of Ratings": 10,
+   "Would Take Again": "63%",
+   "Difficulty": 3.8
+ },
+ {
+   "Name": "Saul Blanco",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.3,
+   "Number of Ratings": 50,
+   "Would Take Again": "55%",
+   "Difficulty": 3.3
+ },
+ {
+   "Name": "Erik Wennstrom",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.2,
+   "Number of Ratings": 30,
+   "Would Take Again": "72%",
+   "Difficulty": 3.9
+ },
+ {
+   "Name": "Younei Soe",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 4,
+   "Would Take Again": "100%",
+   "Difficulty": 1.8
+ },
+ {
+   "Name": "Logan Paul",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.4,
+   "Number of Ratings": 34,
+   "Would Take Again": "42%",
+   "Difficulty": 2.9
+ },
+ {
+   "Name": "Tiana Iruoje",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.3,
+   "Number of Ratings": 9,
+   "Would Take Again": "72%",
+   "Difficulty": 1.7
+ },
+ {
+   "Name": "Kayce Reed-Buechlein",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4,
+   "Number of Ratings": 4,
+   "Would Take Again": "75%",
+   "Difficulty": 3.3
+ },
+ {
+   "Name": "Maria Clor",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 1
+ },
+ {
+   "Name": "Justin Wood",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.3,
+   "Number of Ratings": 3,
+   "Would Take Again": "100%",
+   "Difficulty": 2.3
+ },
+ {
+   "Name": "Erika Lee",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.4,
+   "Number of Ratings": 15,
+   "Would Take Again": "87%",
+   "Difficulty": 2.7
+ },
+ {
+   "Name": "Phil Jordan",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 3,
+   "Would Take Again": "100%",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Shunying Blevis",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.4,
+   "Number of Ratings": 18,
+   "Would Take Again": "17%",
+   "Difficulty": 2.9
+ },
+ {
+   "Name": "Carol Chosky",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "John Duncan",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.4,
+   "Number of Ratings": 39,
+   "Would Take Again": "40%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Alexis Caudell",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3,
+   "Number of Ratings": 2,
+   "Would Take Again": "50%",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Matt Hottell",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 1,
+   "Would Take Again": "0%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Kate Muehlhaus",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Selma Sabanovic",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.9,
+   "Number of Ratings": 7,
+   "Would Take Again": "100%",
+   "Difficulty": 2.7
+ },
+ {
+   "Name": "Rod Stark",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.6,
+   "Number of Ratings": 14,
+   "Would Take Again": "65%",
+   "Difficulty": 2.9
+ },
+ {
+   "Name": "Jennifer Terrell",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.5,
+   "Number of Ratings": 26,
+   "Would Take Again": "90%",
+   "Difficulty": 2.1
+ },
+ {
+   "Name": "Mark Krenz",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Travis Brown",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.3,
+   "Number of Ratings": 6,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Jennifer Schepers",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 5,
+   "Would Take Again": "0%",
+   "Difficulty": 3.4
+ },
+ {
+   "Name": "Novia Nurain",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 2,
+   "Would Take Again": "0%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Jenny EI-Shamy",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.5,
+   "Number of Ratings": 2,
+   "Would Take Again": "50%",
+   "Difficulty": 1.5
+ },
+ {
+   "Name": "Dalya Manatova",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Olga Scrivner",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.4,
+   "Number of Ratings": 7,
+   "Would Take Again": "34%",
+   "Difficulty": 3.1
+ },
+ {
+   "Name": "Stephen Sher",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 5,
+   "Would Take Again": "100%",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Nina Onesti",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.1,
+   "Number of Ratings": 39,
+   "Would Take Again": "79%",
+   "Difficulty": 1.7
+ },
+ {
+   "Name": "Donald Williamson",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3,
+   "Number of Ratings": 3,
+   "Would Take Again": "67%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Kelsey",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.3,
+   "Number of Ratings": 3,
+   "Would Take Again": "34%",
+   "Difficulty": 1
+ },
+ {
+   "Name": "Dan Richert",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.3,
+   "Number of Ratings": 8,
+   "Would Take Again": "34%",
+   "Difficulty": 2.9
+ },
+ {
+   "Name": "David Wild",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.2,
+   "Number of Ratings": 3,
+   "Would Take Again": "0%",
+   "Difficulty": 1.7
+ },
+ {
+   "Name": "Joanna Zai",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.5,
+   "Number of Ratings": 9,
+   "Would Take Again": "89%",
+   "Difficulty": 1.8
+ },
+ {
+   "Name": "Bradford Demarest",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Tom Ongwere",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.7,
+   "Number of Ratings": 3,
+   "Would Take Again": "100%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Kody Sexton",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.8,
+   "Number of Ratings": 4,
+   "Would Take Again": "75%",
+   "Difficulty": 1.8
+ },
+ {
+   "Name": "Nick Leisure",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Sriraam Natarajan",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.8,
+   "Number of Ratings": 6,
+   "Would Take Again": "100%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Kristen Knorr",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 5,
+   "Would Take Again": "100%",
+   "Difficulty": 2.6
+ },
+ {
+   "Name": "Gopinaath Kannabiran",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 2,
+   "Number of Ratings": 1,
+   "Would Take Again": "0%",
+   "Difficulty": 1
+ },
+ {
+   "Name": "Allison Fish",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.5,
+   "Number of Ratings": 2,
+   "Would Take Again": "0%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Kaitlyn Yoder",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 1
+ },
+ {
+   "Name": "Vanessa Minik",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Simon Dedeo",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "NA",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Micah Nethery",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "NA",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Emilio Ferrara",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 4,
+   "Would Take Again": "NA",
+   "Difficulty": 2.5
+ },
+ {
+   "Name": "Edword Amsden",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.5,
+   "Number of Ratings": 1,
+   "Would Take Again": "NA",
+   "Difficulty": 4
+ },
+ {
+   "Name": "David Nemer",
+   "Department": "Informatics",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.8,
+   "Number of Ratings": 2,
+   "Would Take Again": "NA",
+   "Difficulty": 1
+ }
+]

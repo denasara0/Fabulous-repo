@@ -67,13 +67,23 @@ const ApiRequestComponent = () => {
     }
   };
 
+  // Add new handler for key press
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault(); // Prevent default to avoid new line
+      sendRequest();
+    }
+  };
+
   return (
     <div>
       <h2>Send a Message to the AI Assistant</h2>
       <textarea
         value={message}
         onChange={(e) => setMessage(e.target.value)}
-        placeholder="Type your message here..."
+        onKeyDown={handleKeyPress} // Add keypress handler
+        placeholder="Type your message here... (Press Enter to send)"
+        rows="4"
       />
       <button onClick={sendRequest} disabled={isLoading}>
         Send

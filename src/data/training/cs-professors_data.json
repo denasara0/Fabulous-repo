@@ -1,0 +1,839 @@
+[
+ {
+   "Name": "Amr Sabry",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.6,
+   "Number of Ratings": 39,
+   "Would Take Again": "44%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Jeremy Siek",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.9,
+   "Number of Ratings": 28,
+   "Would Take Again": "100%",
+   "Difficulty": 4.4
+ },
+ {
+   "Name": "Jeremy Musser",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 17,
+   "Would Take Again": "100%",
+   "Difficulty": 4.1
+ },
+ {
+   "Name": "Qin Zhang",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.4,
+   "Number of Ratings": 11,
+   "Would Take Again": "19%",
+   "Difficulty": 3.4
+ },
+ {
+   "Name": "Kurt Seiffert",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.4,
+   "Number of Ratings": 9,
+   "Would Take Again": "45%",
+   "Difficulty": 3.1
+ },
+ {
+   "Name": "Nicholas LaRacuente",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Kyle Li",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Suprovat Ghosh",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 1,
+   "Would Take Again": "0%",
+   "Difficulty": 5
+ },
+ {
+   "Name": "Jeff Whitmer",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.1,
+   "Number of Ratings": 38,
+   "Would Take Again": "19%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Nasim Anoushe",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.4,
+   "Number of Ratings": 5,
+   "Would Take Again": "20%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "sakher qaaidi",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.8,
+   "Number of Ratings": 5,
+   "Would Take Again": "60%",
+   "Difficulty": 3.2
+ },
+ {
+   "Name": "Mitja Hmeljak",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.7,
+   "Number of Ratings": 35,
+   "Would Take Again": "18%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Dan-Adrian German",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.9,
+   "Number of Ratings": 107,
+   "Would Take Again": "70%",
+   "Difficulty": 2.5
+ },
+ {
+   "Name": "Dongfang Zhao",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 1,
+   "Would Take Again": "0%",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Fengguang Song",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.7,
+   "Number of Ratings": 7,
+   "Would Take Again": "72%",
+   "Difficulty": 3.3
+ },
+ {
+   "Name": "Mehmet Dalkili",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.4,
+   "Number of Ratings": 16,
+   "Would Take Again": "69%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Chung-chien Shan",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.4,
+   "Number of Ratings": 17,
+   "Would Take Again": "30%",
+   "Difficulty": 3.9
+ },
+ {
+   "Name": "Joshua Crotts",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 30,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Alexander Haye",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Hamidreza Bahramian",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.3,
+   "Number of Ratings": 15,
+   "Would Take Again": "67%",
+   "Difficulty": 4.3
+ },
+ {
+   "Name": "Yijie Wang",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.3,
+   "Number of Ratings": 4,
+   "Would Take Again": "0%",
+   "Difficulty": 4.3
+ },
+ {
+   "Name": "Muazzam Siddi",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2,
+   "Number of Ratings": 32,
+   "Would Take Again": "25%",
+   "Difficulty": 3.8
+ },
+ {
+   "Name": "Yong-Yeol Ahn",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.5,
+   "Number of Ratings": 2,
+   "Would Take Again": "0%",
+   "Difficulty": 4.5
+ },
+ {
+   "Name": "Bowen Basker",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Da Yan",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 2,
+   "Would Take Again": "0%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Carlo Angiuli",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Andrew Holland",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 1,
+   "Would Take Again": "0%",
+   "Difficulty": 5
+ },
+ {
+   "Name": "Daniel Leivant",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2,
+   "Number of Ratings": 13,
+   "Would Take Again": "10%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Charles Pope",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.2,
+   "Number of Ratings": 92,
+   "Would Take Again": "71%",
+   "Difficulty": 2.3
+ },
+ {
+   "Name": "Chenghua Tao",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3,
+   "Number of Ratings": 1,
+   "Would Take Again": "0%",
+   "Difficulty": 1
+ },
+ {
+   "Name": "Isak Asare",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 1.5
+ },
+ {
+   "Name": "Predrag Radivo",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.7,
+   "Number of Ratings": 7,
+   "Would Take Again": "80%",
+   "Difficulty": 4.3
+ },
+ {
+   "Name": "Michael Frutige",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.2,
+   "Number of Ratings": 5,
+   "Would Take Again": "100%",
+   "Difficulty": 2.8
+ },
+ {
+   "Name": "Yan Huang",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.3,
+   "Number of Ratings": 3,
+   "Would Take Again": "34%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Xiaojing Liao",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.8,
+   "Number of Ratings": 6,
+   "Would Take Again": "17%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Christopher Raphael",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.2,
+   "Number of Ratings": 18,
+   "Would Take Again": "19%",
+   "Difficulty": 4.1
+ },
+ {
+   "Name": "Vel Malbasa",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.6,
+   "Number of Ratings": 14,
+   "Would Take Again": "80%",
+   "Difficulty": 3.4
+ },
+ {
+   "Name": "Sam Tobin Hochstadt",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.5,
+   "Number of Ratings": 8,
+   "Would Take Again": "75%",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Chabane Maidi",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.3,
+   "Number of Ratings": 8,
+   "Would Take Again": "75%",
+   "Difficulty": 2.5
+ },
+ {
+   "Name": "Prateek Sharm",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.6,
+   "Number of Ratings": 9,
+   "Would Take Again": "34%",
+   "Difficulty": 3.6
+ },
+ {
+   "Name": "Hasan Kurban",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.6,
+   "Number of Ratings": 8,
+   "Would Take Again": "25%",
+   "Difficulty": 3.4
+ },
+ {
+   "Name": "Dan Friedman",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.9,
+   "Number of Ratings": 34,
+   "Would Take Again": "46%",
+   "Difficulty": 4.2
+ },
+ {
+   "Name": "Nazim Ashraf",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Hassan Kurban",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.4,
+   "Number of Ratings": 5,
+   "Would Take Again": "0%",
+   "Difficulty": 3.8
+ },
+ {
+   "Name": "Dirk Van Gucht",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.3,
+   "Number of Ratings": 26,
+   "Would Take Again": "42%",
+   "Difficulty": 3.6
+ },
+ {
+   "Name": "Adeel Bhutta",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.3,
+   "Number of Ratings": 44,
+   "Would Take Again": "57%",
+   "Difficulty": 4.1
+ },
+ {
+   "Name": "Mohsen Heidar",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Jason Francis",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Martin Swany",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3,
+   "Number of Ratings": 24,
+   "Would Take Again": "40%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Mohsen Heidar Khoozani",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Ruth Eberle",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.2,
+   "Number of Ratings": 11,
+   "Would Take Again": "100%",
+   "Difficulty": 2.7
+ },
+ {
+   "Name": "David Crandall",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.1,
+   "Number of Ratings": 11,
+   "Would Take Again": "73%",
+   "Difficulty": 4.2
+ },
+ {
+   "Name": "Wei Tang",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 1,
+   "Would Take Again": "0%",
+   "Difficulty": 5
+ },
+ {
+   "Name": "Gregory Rawlin",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.5,
+   "Number of Ratings": 22,
+   "Would Take Again": "25%",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Sara Wallbridg",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Rui Zhu",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 5
+ },
+ {
+   "Name": "Geoffrey Brown",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.1,
+   "Number of Ratings": 26,
+   "Would Take Again": "5%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Roni Khardon",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Jaci Wilkinson",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Yuzen Ye",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3,
+   "Number of Ratings": 2,
+   "Would Take Again": "50%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Sameer Patil",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1,
+   "Number of Ratings": 2,
+   "Would Take Again": "0%",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Jeffrey Yu",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Bryce Himbaug",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "James Julovich",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.5,
+   "Number of Ratings": 10,
+   "Would Take Again": "80%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Ying Ding",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2,
+   "Number of Ratings": 2,
+   "Would Take Again": "50%",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Suzanne Menze",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.7,
+   "Number of Ratings": 47,
+   "Would Take Again": "40%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Korhan Bircan",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.4,
+   "Number of Ratings": 3,
+   "Would Take Again": "0%",
+   "Difficulty": 3.3
+ },
+ {
+   "Name": "Ladislav Novak",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.5,
+   "Number of Ratings": 2,
+   "Would Take Again": "50%",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Andy Somogyi",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.7,
+   "Number of Ratings": 11,
+   "Would Take Again": "13%",
+   "Difficulty": 4.5
+ },
+ {
+   "Name": "David Leake",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.7,
+   "Number of Ratings": 5,
+   "Would Take Again": "100%",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Brian Schack",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 2,
+   "Would Take Again": "100%",
+   "Difficulty": 4.5
+ },
+ {
+   "Name": "Judy Qiu",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.5,
+   "Number of Ratings": 9,
+   "Would Take Again": "100%",
+   "Difficulty": 2.6
+ },
+ {
+   "Name": "Beth Plale",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.2,
+   "Number of Ratings": 7,
+   "Would Take Again": "0%",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Martha White",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4,
+   "Number of Ratings": 4,
+   "Would Take Again": "100%",
+   "Difficulty": 3.8
+ },
+ {
+   "Name": "Balaprasath Rajan",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.3,
+   "Number of Ratings": 3,
+   "Would Take Again": "NA",
+   "Difficulty": 2.7
+ },
+ {
+   "Name": "Randall Bramley",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3,
+   "Number of Ratings": 4,
+   "Would Take Again": "NA",
+   "Difficulty": 2.3
+ },
+ {
+   "Name": "Raquel Hill",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4,
+   "Number of Ratings": 2,
+   "Would Take Again": "NA",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Ryan Newton",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 5,
+   "Number of Ratings": 1,
+   "Would Take Again": "NA",
+   "Difficulty": 4
+ },
+ {
+   "Name": "David Hakken",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.9,
+   "Number of Ratings": 4,
+   "Would Take Again": "NA",
+   "Difficulty": 3.5
+ },
+ {
+   "Name": "Francisco Lara Dammer",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.1,
+   "Number of Ratings": 11,
+   "Would Take Again": "NA",
+   "Difficulty": 4
+ },
+ {
+   "Name": "Funda Ergun",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.3,
+   "Number of Ratings": 2,
+   "Would Take Again": "NA",
+   "Difficulty": 3
+ },
+ {
+   "Name": "Paul Purdom",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 1.6,
+   "Number of Ratings": 11,
+   "Would Take Again": "NA",
+   "Difficulty": 4.6
+ },
+ {
+   "Name": "Deep Ved",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.8,
+   "Number of Ratings": 3,
+   "Would Take Again": "NA",
+   "Difficulty": 1.7
+ },
+ {
+   "Name": "Kay Connelly",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.7,
+   "Number of Ratings": 3,
+   "Would Take Again": "NA",
+   "Difficulty": 1.7
+ },
+ {
+   "Name": "Yuqing Wu",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.7,
+   "Number of Ratings": 5,
+   "Would Take Again": "NA",
+   "Difficulty": 2.6
+ },
+ {
+   "Name": "Minaxi Gupta",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.9,
+   "Number of Ratings": 3,
+   "Would Take Again": "NA",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Johnathan Mills",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 4.2,
+   "Number of Ratings": 13,
+   "Would Take Again": "NA",
+   "Difficulty": 1.4
+ },
+ {
+   "Name": "Will Byrd",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.5,
+   "Number of Ratings": 1,
+   "Would Take Again": "NA",
+   "Difficulty": 2
+ },
+ {
+   "Name": "Chris Haynes",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.2,
+   "Number of Ratings": 23,
+   "Would Take Again": "NA",
+   "Difficulty": 3.8
+ },
+ {
+   "Name": "Michael Gassel",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.1,
+   "Number of Ratings": 5,
+   "Would Take Again": "NA",
+   "Difficulty": 3.4
+ },
+ {
+   "Name": "R. Kent Dybvig",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.4,
+   "Number of Ratings": 9,
+   "Would Take Again": "NA",
+   "Difficulty": 3.7
+ },
+ {
+   "Name": "Saurabh Ajmer",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 3.5,
+   "Number of Ratings": 3,
+   "Would Take Again": "NA",
+   "Difficulty": 2.3
+ },
+ {
+   "Name": "David Wise",
+   "Department": "Computer Science",
+   "School": "Indiana University Bloomington",
+   "Quality": 2.5,
+   "Number of Ratings": 11,
+   "Would Take Again": "NA",
+   "Difficulty": 3.8
+ }
+]

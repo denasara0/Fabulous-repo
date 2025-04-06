@@ -1,0 +1,195 @@
+{
+  "Computer Science (BS)": {
+    "major": "Computer Science (BS)",
+    "core_courses": [
+      "CSCI-C 200 or INFO-I 210, Introduction to Programming (choose one)",
+      "CSCI-C 211, Introduction to Computer Science",
+      "CSCI-C 212, Introduction to Software Systems",
+      "CSCI-C 241, Discrete Structures for Computer Science",
+      "CSCI-C 343, Data Structures",
+      "MATH-M 211, Calculus I",
+      "MATH-M 212, Calculus II",
+      "STAT-S 350, Introduction to Statistical Inference"
+    ],
+    "concentrations": {
+      "Artificial Intelligence": {
+        "required": [
+          "CSCI-B 351, Introduction to Artificial Intelligence",
+          "CSCI-B 365, Introduction to Data Analysis and Mining",
+          "CSCI-B 455, Principles of Machine Learning"
+        ],
+        "choices": []
+      },
+      "Game Development": {
+        "required": [
+          "MSCH-G 300, Game Production I",
+          "MSCH-G 310, Game Design I",
+          "CSCI-B 453, Game Development",
+          "CSCI-C 292, Introduction to Game Programming",
+          "CSCI-C 460, Senior Project I",
+          "CSCI-C 470, Senior Project II"
+        ],
+        "choices": [
+          [
+            "CSCI-B 401, Fundamentals of Computing Theory",
+            "CSCI-P 415, Introduction to Verification",
+            "STAT-S 350, Introduction to Statistical Inference"
+          ]
+        ]
+      },
+      "Security": {
+        "required": [
+          "CSCI-B 453, Introduction to Computer Security",
+          "CSCI-B 544, Security and Privacy"
+        ],
+        "choices": [
+          [
+            "CSCI-B 441, Digital Design",
+            "CSCI-B 461, Database Concepts",
+            "CSCI-B 490, Seminar in Computer Science (approved topic)",
+            "CSCI-C 335, Computer Structures",
+            "CSCI-P 424, Advanced Functional Programming",
+            "CSCI-P 436, Introduction to Operating Systems",
+            "CSCI-B 401, Fundamentals of Computing Theory",
+            "CSCI-B 403, Introduction to Algorithm Design and Analysis",
+            "CSCI-P 415, Introduction to Verification"
+          ]
+        ]
+      },
+      "Software Engineering": {
+        "required": [
+          "CSCI-P 465, Software Engineering for Information Systems I"
+        ],
+        "choices": [
+          [
+            "CSCI-P 538, Advanced Security Topics",
+            "CSCI-B 547, Systems Security"
+          ]
+        ]
+      },
+      "Systems": {
+        "required": [
+          "CSCI-C 335, Computer Structures",
+          "CSCI-P 436, Introduction to Operating Systems"
+        ],
+        "choices": [
+          [
+            "CSCI-C 322, Object-Oriented Software Development",
+            "CSCI-C 343, Data Structures",
+            "CSCI-P 466, Software Engineering for Information Systems II",
+            "CSCI-P 436, Introduction to Operating Systems",
+            "CSCI-P 434, Distributed Systems",
+            "CSCI-B 403, Introduction to Algorithm Design and Analysis"
+          ]
+        ]
+      },
+      "Foundations": {
+        "required": [
+          "CSCI-C 311, Programming Languages",
+          "CSCI-C 335, Computer Structures",
+          "CSCI-C 343, Introduction to Algorithms",
+          "CSCI-C 455, Computer Networks",
+          "CSCI-C 460, Automata Theory"
+        ],
+        "choices": [
+          [
+            "CSCI-P 434, Distributed Systems",
+            "CSCI-P 438, Introduction to Computer Networks",
+            "CSCI-P 465, Software Engineering for Information Systems I",
+            "CSCI-P 466, Software Engineering for Information Systems II"
+          ]
+        ]
+      }
+    }
+  },
+  "Data Science (BS)": {
+    "major": "Data Science (BS)",
+    "core_courses": [
+      "ILS-Z 410, Social and Ethical Impacts of Big Data",
+      "MATH-E 201, Linear Algebra for Data Science",
+      "MATH-E 265, Probability for Data Science",
+      "MATH-M 211, Calculus I",
+      "CSCI-C 200 or INFO-I 210, Introduction to Programming (choose one)",
+      "CSCI-C 241 or INFO-I 201, Discrete Structures or Math Foundations (choose one)",
+      "CSCI-A 310, Problem Solving Using Data",
+      "DSCI-D 321, Data Representation and Processing",
+      "DSCI-D 351, Big Data Analytics",
+      "INFO-I 123, Data Fluency",
+      "STAT-S 350, Introduction to Statistical Inference",
+      "STAT-S 352, Data Modeling and Inference",
+      "DSCI-D 498, Data Science Capstone I",
+      "DSCI-D 499, Data Science Capstone II"
+    ],
+    "concentrations": {}
+  },
+  "Intelligent Systems Engineering (BS)": {
+    "major": "Intelligent Systems Engineering (BS)",
+    "core_courses": [
+      "MATH-M 211, Calculus I",
+      "MATH-M 212, Calculus II",
+      "PHYS-P 221, Physics I",
+      "PHYS-P 222, Physics II",
+      "STAT-S 350 or MATH-M 365, Intro to Statistics (choose one)",
+      "ENGR-E 101, Innovation and Design",
+      "ENGR-E 110, Engineering Computing Architectures",
+      "ENGR-E 111, Software Systems Engineering",
+      "ENGR-E 201, Computer Systems Engineering",
+      "ENGR-E 221, Intelligent Systems I",
+      "ENGR-E 225, Introduction to Circuits",
+      "ENGR-E 250, Systems, Signals, and Control",
+      "ENGR-E 299, Engineering Professionalization and Ethics",
+      "ENGR-E 332, Introduction to Modeling and Simulation",
+      "ENGR-Y 395, Career Development",
+      "MATH-E 449, Advanced Engineering Math Methods",
+      "ENGR-E 490, Capstone Design I",
+      "ENGR-E 491, Capstone Design II"
+    ],
+    "concentrations": {}
+  },
+  "Informatics (BS)": {
+    "major": "Informatics (BS)",
+    "core_courses": [
+      "INFO-I 101, Introduction to Informatics",
+      "INFO-I 201, Mathematical Foundations of Informatics",
+      "INFO-I 202, Social Informatics",
+      "INFO-I 210, Information Infrastructure I",
+      "INFO-I 211, Information Infrastructure II",
+      "INFO-I 300, Human-Computer Interaction",
+      "INFO-I 308, Information Representation",
+      "INFO-I 310, Multimedia Arts and Technology",
+      "INFO-I 330, Legal and Social Informatics of Security",
+      "INFO-I 391, Internship in Informatics",
+      "INFO-I 400, Topics in Informatics",
+      "INFO-I 453, Computer and Information Ethics",
+      "INFO-I 494, Design and Development of an Information System",
+      "INFO-I 495, Design and Development of an Information System II",
+      "Cognate Area: (students choose a defined cognate or a custom path; courses vary)"
+    ],
+    "concentrations": {}
+  },
+  "Informatics + Business Cognate": {
+    "major": "Informatics + Business Cognate",
+    "core_courses": [],
+    "concentrations": {}
+  },
+  "Informatics + Bioinformatics Cognate": {
+    "major": "Informatics + Bioinformatics Cognate",
+    "core_courses": [],
+    "concentrations": {}
+  },
+  "Cybersecurity and Global Policy (BS)": {
+    "major": "Cybersecurity and Global Policy (BS)",
+    "core_courses": [],
+    "concentrations": {}
+  },
+  "Cybersecurity and Global Policy + Accelerated MS Option": {
+    "major": "Cybersecurity and Global Policy + Accelerated MS Option",
+    "core_courses": [],
+    "concentrations": {}
+  },
+  "Information Technology (BS)": {
+    "major": "Information Technology (BS)",
+    "core_courses": [],
+    "concentrations": {}
+  }
+}
