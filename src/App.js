@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.scss';
-import ApiRequestComponent from './ApiRequestComponent';
+import LammaRequestComponent from './LammaRequestComponent';
 
 // Header Component
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <h1>MyCompany</h1>
+        <img src="https://i.ibb.co/DytGX4Q/logo-banner-1536x758-Photoroom.png" alt="Alyssa Course Selection Chatbot" className="logo-image" />
       </div>
       <nav>
         <ul>
@@ -30,9 +30,12 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <h2>Meet Alyssa, your new AI-assisted counselor</h2>
+        <h2>Meet Alyssa, Your New AI-assisted Course Advisor</h2>
+        <div className="hero-logo">
+          <img src="https://i.ibb.co/JRdkh1mL/Chat-GPT-Image-Apr-6-2025-02-14-59-PM-Photoroom.png" alt="Alyssa Logo" className="hero-logo-image" />
+        </div>
         <button className="cta-button" onClick={handleChatbotToggle}>
-          Let's chat
+          Chat with Alyssa
         </button>
       </div>
 
@@ -123,12 +126,12 @@ const Chatbot = ({ closeChatbot }) => {
       onMouseDown={handleDragStart}
     >
       <div className="chatbot-header">
-        AI Assistant
+        Alyssa - Course Advisor
         {/* Exit button */}
         <button className="close-button" onClick={closeChatbot}>X</button>
       </div>
       <div className="chatbot-body">
-        {<ApiRequestComponent />}
+        <LammaRequestComponent />
       </div>
       <div className="chatbot-footer">
       </div>
