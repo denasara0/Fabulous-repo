@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Smart Course Selector AI Agent
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The **Smart Course Selector AI Agent** is an AI-powered chatbot designed to help students choose the most suitable courses for an upcoming semester. The chatbot recommends courses based on a student's career goals, preferences, course prerequisites, credit requirements, and course availability.
 
-In the project directory, you can run:
+This project is built using **React** for the frontend, **Django** for the backend, **MongoDB** for data storage, and uses the **Gemma** machine learning model to process user inputs and recommend courses.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:** React
+- **Backend:** Django
+- **Database:** MongoDB
+- **Chatbot Framework:** [react-chatbotify](https://github.com/tjtanjin/react-chatbotify)
+- **Machine Learning Model:** LLaMA 3 1B
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Features
 
-### `npm run build`
+1. **Landing Page**:
+   - A basic landing page built with React that serves as the introduction to the course selector tool. The landing page also provides basic information about the functionality of the chatbot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **AI Chatbot**:
+   - Integrated **React-based conversational UI** using the [react-chatbotify](https://github.com/tjtanjin/react-chatbotify) framework.
+   - Uses the **LLaMA 3 1B** machine learning model to process student inputs and provide relevant course recommendations based on the selected career goals, preferences, and available credits.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Course Selection Flow**:
+   - The chatbot interacts with users, asking for information such as:
+     - Enrollment type (graduate/undergraduate, full-time/part-time)
+     - Career goals (e.g., Data Scientist, UX Designer, Product Manager)
+     - Course preferences (challenging or easier classes, grade distributions)
+   - Based on the answers, the chatbot provides course recommendations, checks prerequisites, and ensures total credits are within the allowed limits.
+   - Offers options to modify selections, view available time slots, and finalize the course selection.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Progress So Far
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Frontend:**
+- Completed **Landing Page**.
+- Integrated **React-based chatbot** using the [react-chatbotify](https://github.com/tjtanjin/react-chatbotify) framework.
+- Combined chatbot with the landing page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **AI/ML Integration:**
+- **LLaMA 3 1B** model selected for processing user input.
+- **Model training** based on course data, professor information, and course credits. Due to time constraints, the bot is currently only trained for the undergraduate computer science major, and all concentrations.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Backend:**
+- **Django Project Setup**:
+  - Created a Django project (`course_selector`) and connected to **MongoDB** using **Djongo**.
+  - Set up the backend to handle API requests for course filtering, career goal selection, and user session management.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Models Created:**
+  - Course catalogs
+  - Student preferences
+  - Selected courses
 
-## Learn More
+## User Journey
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Ask for Enrollment Type**:
+   - Are you a graduate or undergraduate student?
+   - Are you full-time or part-time?
+   - What is your major? What are your career goals?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Career Goal Selection**:
+   - Career options such as [Data Scientist], [UX Designer], and [Product Manager].
 
-### Code Splitting
+3. **Display Courses**:
+   - Courses are recommended based on the selected career goal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **Prerequisite Check**:
+   - If prerequisites are met, proceed; if not, users are redirected to available courses.
 
-### Analyzing the Bundle Size
+5. **Time Slot Availability**:
+   - Check for time slot clashes with already selected courses.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6. **Finalize Course Selection**:
+   - Users can review their course selections and ensure they are within the credit limits.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Remaining Tasks
 
-### Advanced Configuration
+While the core functionality is already in place, a few tasks are still pending to fine-tune the experience:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Complete API Endpoints**:
+  - A couple of endpoints need further refinement for seamless integration between the frontend and backend. This will ensure smoother course selection and credit tracking.
 
-### Deployment
+- **Session Handling & Validation**:
+  - Need to finalize how session management will work when users refresh or end their chat. This is a relatively minor task that will be added as we test the system.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+These tasks are manageable and won't take much time to wrap up.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Enhancements
+
+We’ve made great progress with the AI chatbot and course selector features, and here are a few things we plan to improve or add down the line:
+
+- **Expanded Course Catalog**: We can add more courses and career options to make the tool more comprehensive.
+- **Real-time Course Availability**: Fetch live course data to check availability and adjust recommendations accordingly.
+- **User Accounts**: Allow students to save and track their course selections for future semesters.
+- **Advanced Chatbot Interaction**: Fine-tune the chatbot to better understand user preferences and provide more personalized course suggestions.
+
+While these features would definitely enhance the app, the current version already provides the core functionality for selecting courses based on career goals and credit requirements.
+
+---
+
+## Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/denasara0/Fabulous-repo.git
+
+2. Install frontend dependencies:
+
+    cd Fabulous-repo
+    npm install
+3. Set up the backend (Django):
+    cd course_selector
+    python manage.py runserver
+4. To run the app in development mode:
+    npm start
+    Open http://localhost:3000 in your browser.
+
