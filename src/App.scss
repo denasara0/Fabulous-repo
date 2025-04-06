@@ -207,70 +207,9 @@ ul {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  height: calc(100% - 100px); /* Adjust for header and footer */
-}
-
-.chatbot-footer {
-  padding: 10px;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-
-.chatbot-footer button {
-  background-color: #DC143C;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-.chatbot-footer button:hover {
-  background-color: #ff4d6d;
-}
-
-/* Resizing Handles */
-.resize-handle {
-  position: absolute;
-  background-color: transparent;
-  z-index: 1000;
-  touch-action: none;
-}
-
-.resize-right {
-  right: -2px;
-  top: 0;
-  width: 4px;
-  height: 100%;
-  cursor: ew-resize;
-}
-
-.resize-bottom {
-  bottom: -2px;
-  left: 0;
-  height: 4px;
-  width: 100%;
-  cursor: ns-resize;
-}
-
-.resize-handle:hover {
-  background-color: rgba(51, 51, 51, 0.2);
-}
-
-/* API Request Component Styles */
-.chatbot-body {
-  /* Update existing styles */
-  padding: 15px;
-  font-size: 14px;
-  color: #555;
-  flex-grow: 1;
-  overflow-y: auto;
+  height: calc(100% - 60px); /* Changed from 100px to 60px to reduce bottom space */
   
   /* Add these new styles */
-  display: flex;
-  flex-direction: column;
-  height: calc(100% - 100px); /* Adjust for header and footer */
-  
-  /* Style for the API component container */
   > div {
     height: 100%;
     display: flex;
@@ -408,7 +347,8 @@ ul {
   gap: 10px;
   padding: 10px;
   overflow-y: auto;
-  max-height: calc(100% - 150px);
+  max-height: calc(100% - 100px); /* Increase from previous value */
+  flex-grow: 1; /* Add this to make it take available space */
 }
 
 .chat-message {
@@ -504,4 +444,51 @@ ul {
       cursor: not-allowed;
     }
   }
+}
+
+.chatbot-footer {
+  padding: 5px; /* Reduced from 10px */
+  background-color: #f4f4f4;
+  text-align: center;
+  height: 30px; /* Add explicit height */
+}
+
+.chatbot-footer button {
+  background-color: #DC143C;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.chatbot-footer button:hover {
+  background-color: #ff4d6d;
+}
+
+/* Resizing Handles */
+.resize-handle {
+  position: absolute;
+  background-color: transparent;
+  z-index: 1000;
+  touch-action: none;
+}
+
+.resize-right {
+  right: -2px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  cursor: ew-resize;
+}
+
+.resize-bottom {
+  bottom: -2px;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  cursor: ns-resize;
+}
+
+.resize-handle:hover {
+  background-color: rgba(51, 51, 51, 0.2);
 }
