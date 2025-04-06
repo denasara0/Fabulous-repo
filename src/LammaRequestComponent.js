@@ -72,11 +72,8 @@ const LammaRequestComponent = () => {
             // Start streaming response using fetch
             const response = await fetch('https://14cf-173-230-56-29.ngrok-free.app/api/chat', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
                 body: JSON.stringify({
-                    model: 'gemma3',
+                    model: 'GO',
                     messages: [ollamaMessage],
                     stream: true
                 }),
